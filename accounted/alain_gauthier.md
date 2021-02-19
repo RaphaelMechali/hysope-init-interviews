@@ -5,19 +5,19 @@
 * Présentation (nom métier, organisme, formation universitaire)
 <font color="darkcyan">Bureau d'étude Eaucéa (environnement / gestion de l'eau) - petite équipe: modélise, développe (scripts de traitement de donnée), accès à la donnée hydro. Formation initiale: mathématique puis reconversion ENSEIT (1 an). 
 Eaucéa:
-* travaillent beaucoup sur l'etiage (réserve, partage, ressources, retenues collinaires)
+* travaillent beaucoup sur l'étiage (réserve, partage, ressources, retenues collinaires)
 * activité travaux MAO barrages hydro
 * étude d'impact débit / qualité des milieux aquatiques (+autorisation de prélèvement)
-* batimétrie (mesure du bassin)
+* bathymétrie (mesure du bassin)
 </font>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
   <font color="darkcyan">OP / BE (mais exploitation de résultats issus de la recherche scientifique "hydrologie naturelle" des bassins, ie l'usage / l'impact OU enjeux de changements climatiques)</font>
 * Quel tâche métier principale? 
 <font color="darkcyan">
 En fonction des périodes: 
-* prévision hydrologique (6 mois année): anticiper "soutien d'étiage" (de la Garonne, répond aux d'usage et d'environnement):
+* prévision hydrologique (6 mois année): anticiper "soutien d'étiage" (de la Garonne, répond aux normes d'usage et d'environnement):
   * résultat: outil d'aide à la gestion en ligne e-tiage (service).
-  * Comment: données observées et prévisions météo + modèle GR4J (adapté et semi-distribué en sous bassin versant) + intégration usages => prévision à 3/4j ou 8-10j bassin Charente. Les lâchers hydro-électriques viennent pertuber les précisions.
+  * Comment: données observées et prévisions météo + modèle GR4J (adapté et semi-distribué en sous bassin versant) + intégration usages => prévision à 3/4j ou 8-10j bassin Charente. Les lâchers hydro-électriques viennent perturber les précisions.
     * Données observées: fonction des bassins. 
       * Données hydrométriques (stations temps-réels ou proche)
       * API Hubeau (moins privilégiée)
@@ -56,7 +56,7 @@ Données observées = stations hydrométriques temps réel/quasi-réelle (API Hu
 * Scripts Python
 * Logiciel de modélisation: GR4J, Mart (BRGM, hydrogéologie souterraine), Telemac (hydraulique)
 * Hydrométrie (jauge + bateaux drones)
-* utilise les téodolites (pour mesurer les niveaux d'eau)
+* utilise les théodolites (pour mesurer les niveaux d'eau)
 * SIG et QGis
 * Webservices (geoportail, Sentinel HUB, service Sandre, banque hydro)
 * Outil de recherche de données (SearchEveryThing, leur permet de rechercher dans leurs fichiers/données)

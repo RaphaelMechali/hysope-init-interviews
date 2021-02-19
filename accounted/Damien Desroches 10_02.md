@@ -97,7 +97,7 @@ Pas encore très carré pour lui, mais ont des issues GitLab pour tracer.
   * Quels points d'amélioration?
 <font color="darkcyan">
 Non pas trop. Actuellement en mode dégradé (situation réseau actuelle, état sanitaire, globalement problème de la VRE -> affichage déporté)
-Besoins de mémoire pour les grosses simulations (jusqu'à 184Go de mémoire), peu le bloquer
+Besoins de mémoire pour les grosses simulations (jusqu'à 184Go de mémoire), peut le bloquer
 </font>
   * Quels points d'intégration?
 <font color="darkcyan">
@@ -129,15 +129,15 @@ N'intervient pas dessus (éventuellement en support avec Kévin)
 </font>
   * Température
 <font color="darkcyan">
-Non (pas en première intention, en cas de phénomèmes inexpliqués)
+Non (pas en première intention, en cas de phénomènes inexpliqués)
 </font>
   * Turbidité
 <font color="darkcyan">
-Non (pas en première intention, en cas de phénomèmes inexpliqués)
+Non (pas en première intention, en cas de phénomènes inexpliqués)
 </font>
   * Autres?
 <font color="darkcyan">
-en cas de phénomes inexpliqués: carte de végétation, occupation du sol. MNT
+en cas de phénomènes inexpliqués: carte de végétation, occupation du sol. MNT
 </font>
 * Quelles méthodes
   * d'exploitation
