@@ -75,9 +75,9 @@
   * Analyse coût / risque / bénéfice 1
   * Analyse statistique 1
     * Réseau de neurones 1
-  * Simulation 1
-    * SWOT-hydrology-toolbox 1
-    * Jpl - RiverOps 1    
+  * Simulation 2
+    * SWOT-hydrology-toolbox 2
+    * Jpl - RiverOps 2
 * Analyse continue (seuils d'alertes) 2
 * A essayé de remplacer des traitement QGis par photoshop 1
 * Programmation 1
@@ -152,21 +152,21 @@
 * navigation / voies navigables 1
 * Algo SWOT 2
   * Générer de la donnée de simulation pour les algos (vérité terrain) 1
-  * Implémenter des algo de qualité satisfaisante 1
-  * traiter les données SWOT 1
+  * Implémenter des algo de production d'images de qualité satisfaisante 2
   * Comparer à l'existant (in situ) 1
   * Produire pour des résultats pour les scientifiques et les utilisateurs 1
 
 ## Points pénibles
 
-* Préparation 1
+* Préparation des données 1
 * Satellitaire 3
   * Temps de téléchargement / récupération / traitement 3
   * Puissance / espace requis 3
   * Inconstance du type de mesure 1
   * Conversion SAT (S1Tiling) 1
   * Fréquences trop basse 1
-  * Ressources matérielles requises 5
+  * Ressources matérielles requises 6
+    * NetCDF trop lourd en manip 1
   * Lenteur de mise à disposition des données sur bandes 1
 * Données payantes (produits spécifiques ou in situ) 2
 * Cartographie 3
@@ -181,7 +181,6 @@
 * Visualisation historique complexe 1
 * Pression des projets (temps / budget) 2
 * Mise à jour des outils JPL trop fréquentes 1
-* NetCDF trop lourd en manip 1
 
 ## Crainte
 
