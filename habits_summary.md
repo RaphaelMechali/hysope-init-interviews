@@ -179,7 +179,7 @@
 * Analyse stat. automatique filtre les évènements extrêmes réels 2
 * Estimer la marge d'erreur 2
 * Visualisation historique complexe 1
-* Pression des projets (temps / budget) 1
+* Pression des projets (temps / budget) 2
 * Mise à jour des outils JPL trop fréquentes 1
 * NetCDF trop lourd en manip 1
 
@@ -189,7 +189,6 @@
 * Les fichiers non copiables (PDF, manuscrits) 1
 * Âpre concurrence, intérêts divergents 1
 * Rédiger des documents 1
-* pression importante lors de la CALVAL SWOT 1
 
 ## Appartenance communautaire
 
@@ -246,7 +245,7 @@
 * Des projets "pérennisés" (manque de suivi de long terme) 1
 * Mise à disposition d'un scribe 1
 * Rapidité d'application des prétraitements et traitements de visu et graphiques (autant calibration qu'exploitation) 1
-* affichr la taille dispo des volumes (voir STYX / HYMOTEP) 1
+* afficher la taille dispo des volumes (voir STYX / HYMOTEP) 1
 
 
 
