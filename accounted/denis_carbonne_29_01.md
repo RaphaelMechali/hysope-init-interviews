@@ -56,7 +56,7 @@ données brute (traitement)> Pixel Cloud (traitement)> Rivières / masse d'eau O
   <font color="darkcyan">Non</font>
   * Autres?
   <font color="darkcyan">
-    -> dates des produits
+    -> dates des produits <span color="red">? </span>
     -> conditions météo (vent)
   </font>
 * Quelles méthodes
