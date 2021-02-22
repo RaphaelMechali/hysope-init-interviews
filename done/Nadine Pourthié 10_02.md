@@ -3,195 +3,199 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 CNES depuis 40 ans. Traitement d'image Radar. Formation initiale en informatique (apprend le radar sur le tas). Un peu d'imagerie optique
 En ce moment support SWOT, dans l'équipe CALVAL (ou future équipe), en particulier simulation d'imagerie radar (donnée brute). A une expérience d'autres types de données (S1 copernicus...)
 A été responsable axe R&T CNES (altimétrie et imagerie Radar).
 Fin de carrière quelques mois avant retraite.
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Bureau d'étude (def amont), en support de toutes ces catégories
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 * En ce moment: simulation donnée RADAR et première partie du segment sol (fournit par le JPL - avant c'était SWOT Proto par CLS. Donne les RAW DATA, proches instruments sat, avant le pixel cloud). Un peu de bêta test. Ne programme pas. Est obligé de simuler un peu la suite pour vérifier la validité de la simulation
 * Simu JPL / Simu SWOT de Damien
 * Test les simulateurs
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 * Retour: cas non fonctionnels avec le simulateur
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 si broken: pour Damien
 si donnée produites: pour Claire (pré-analyse les abérrations puisse laisse la recherche spécifique erreur / typique)
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 Si le teste passe (avec résultats des simu), visualise dans QGis la diff à la donnée attendue (de référence, ne creuse pas plus)
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * Demande de Damien: file nous un coup de main sur la validation Simu
 * Reçoit une nouvelle version
 * Teste et valide
   * si broken: pour Damien
   * si donnée produites: pour Claire (pré-analyse les abérrations puisse laisse la recherche spécifique erreur / typique)
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 L1B océano != L1B hydro (sérieux?!)
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * QGis: Visuliser et superposer images et informations (données de ref, données google earth, NetCDF, shapefile, raster vecteur)
 * Monteverdi (IHM pour l'OTB, manip d'image). DiapOTB pour le radar (remove module OTB pour le radar et l'interférométrie).
 * Jupiter notebook (un peu, plus ses collègues)
 Aimait bien l'outil Envy. 
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * Facilité d'utilisation (par très convaincu)
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 * Mais pas toujours facile (prise en compte des format types NetCDF complexe), conversions pénibles
 * Affichage compliqué mais requis (info orbite, trace, prise de tuiles, localisation), projections RADAR optique différences, certitude complexes
 * Temps de réaction et volumes élevés
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / prduits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 * mesure et localisation du pixel, info pixel
 * extraction de région de donnée
 --> exploitation visuelle, valoriser la donnée pour par exemple comparer la hauteur sur la couche de reférence et la hauteur de la donnée produite.
 --> Agrégation sur quelques point, sur un petit lac, sur une zone d'intérêt custom. (le sigma 0 => réflectivité)
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Moyens du bord, bof. Pas d'outil parfaitement adéquat
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 cf points d'amélioration
 QGIs (expérience courte avec): formation requise, aide manquante (grosse réflexion pour elle). Ex: multi-sélection des layer en en retirant 1/3 (ne connaissait pas les groupes de layers). Manque de guidance
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Présentation de résultats partageables entre utilisateurs / avec le public (gobal / local, avec timeline, facile à créer)
 * Echanges (feedback):
   * Truc et astuces
   * Besoins et évo du besoin
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Interfaçage dev / utilisateur
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Oui, si elle n'est pas encore partie en retraite
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 Outil
 * Superposition des couches / données (complexes à cause du multi résolution / multi orbite)
 * Localisation précise (coordonnée géo, carto, système de proj lat/lon ou en tout cas le plus standard --> rassurant). Mais en fait ça correspond au préférences de chacun (OK vérifier avec Lionel qui a l'air sceptique). Certains utilisateurs leur donnent des coordonnées issues d'autres systèmes de proj (exemple côte, grille océano intersection avec la zone estuaire en lat lon pour les hydro)
 * Facile à utiliser
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 cf. précédent
-</font>
+</span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

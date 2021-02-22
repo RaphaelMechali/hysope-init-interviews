@@ -3,14 +3,14 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Exploitation image depuis 35 ans
 Géologue à la base (pas physicien / info pur, touche à tout)
 Travaille au SERTIT (rattaché à un labo de Strasbourg), 20 ingé de recherche, bureau d'étude like, universitaire, né avec SPOT
 labo passe de local à régional
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 * Catographie rapide pour catastrophe naturelle (BE / OP), calcul d'impact sur bassin
 * volet recherche: algorithmie
 * management (sélection produit)
@@ -19,108 +19,108 @@ labo passe de local à régional
   * mise en place BD lacs / rivières
   * supervision campagne terrain
   * manage l'équipe rapid mapping
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
  (a choisi la tâche): Etude petits lacs
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 * aide notamment SWOT (pré-valide)
 * donnée de gestion à destination commerciale (prestataire), pour la DREAL ou la region.
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 * SWOT
 * pour la DREAL ou la region
 * Agence de bassin
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 Attend les éléments altimétriques (compliqué de récupérer les séries temporelles) PUIS: 
 Récupération donnée
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * Récupération donnée
 * BD de variation de surface
 * En cours: couplage avec de l'altimétrie (quand elle sera dispo pour petits lacs)
 * Comparaison avec in situ (quand dispo, rarement! beaucoup d'interlocuteurs, c'est la galère, non centralisé sur la base hydro / vigicrue). Anecdote: l'asso de pêche lui permet d'accèder à une donnée tous les 10j. 
 * Courbes, rapports et visuels (exemple: inondations décennales en Alsace)
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
-</font>
+<span class="user-answer">
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * SIG: QGis (mais ont aussi ArcGis)
 * Traitement d'images: (plutôt manager, utilise SNAP, mais ils ont aussi cognition, RDAS)
 * Dev maison (intégrant plus ou moins de SNAP): Python + docker
 * Recours aux chaînes SAR (veut passer Orpheo dessus)
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * Outils génériques / standards, mieux pour la discussion (raison au peu d'adoption de l'OTB)
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 * pas assez validés (acuité des traitements trop souvent négocié). Notamment sur SurfWater (mais aussi en interne: optimisation contre qualité / vérification)
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / produits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 Occasionnellement (pas fou, testé au cours d'un travail avec le SHAPI)
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 même réponse (mais quand même utile parfois lors des grands épisodes neigeux!)
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Non
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 Couverture en glace (pourquoi pas épaisseur)
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 PPT et présentation classique / diffusion via plateformes
 statistiques classiques avec Excell (pas Mathlab):
 (série de surface) 
@@ -130,82 +130,88 @@ A. c'est le résultat final
 B. recherche de correlation (origine météo / autres)
 C. etude faune flore (correlation avec la température et la turbidité, permanence de l'eau, étendue des systèmes inondés)
 ====> application (absence / présence de parasites dans l'eau, etc..)
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 extrapolation / interpolation pour caler la donnée
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Non.
 Surface: OK en interne.
 Hauteur: KO, altimétrie indisponible pour les petits lacs
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 * Pas de ressources pour aller chercher les séries altimétriques et les traiter pour lui (et ne peut pas cliquer dessus).
 * notion de température "délicate" (bases physiques complexes). Comparaison entre capteurs complexes. Même remarque pour la turbidité (trop de modèles, compliquer à génériciser)
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 OUI Hydroweb (s'en sert régulièrement)
 récupère aussi les feux de forêts chez le CNES
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 Consomme des données:
 * Sentinels (PEPS/Hub Esa, chez l'ESA c'est lourd, Google earth engine): lourdeur ESA: obligé de récupérer les images stockées sur bandes magnétiques depuis quelques jours (== SciHub)
 * RUS
 * utilise RADARS classiques SPOT Pleiades (donnée payante HR, dans le cadre du rapid mapping, payé par leurs clients)
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 Aurait voulu intégrer la communauté Trishna, eaux continentales, pour représenter son segment utilisateur (lacs / zones inondées), pour concevoir les requirements des produits ==> le produit EST ce dont ils se servent.
 Manque de vision globale, n'y retrouve pas ses priorités 
 N'a pas pu intégrer cette communauté
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 La vitesse d'accès à la donnée (ex accès in situ avec des tas de contacts différents).
 La qualification du type de travail réalisable par donnée
 Marketplace data
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 plus de traces (toutes?) exploitées (pas comme S3!)
 Disponibilité de hauteur et variations des hauteurs multi-missions, si possible, fréquence journalière!
 PLUS DE DONNEES (il n'y a pas les lacs de 6/7km² aujourd'hui)
-</font>
+</span>
+
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

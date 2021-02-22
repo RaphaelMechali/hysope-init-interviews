@@ -3,170 +3,174 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / prduits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

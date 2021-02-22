@@ -3,37 +3,37 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 CALVAL, algo produits lacs. Aggège les nuages de points par entités observés (stockage en eau, hauteur...).
 2 structures de prod (Observation et aggregation par cycle)
 aggregation par cycle: 3 cas différents (moyenne, observé par cycle ~21j => puzzle / synthèse, observé en partie => puzzle amélioré)
 Travaille beaucoup avec CS Group
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Opérationnel et scientifique
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 Développer en python, algorithmie ==> codeuse
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 Evolution de codes , bugs corrigés dans les traitements lacs. Algo embarqués dans le centre de mission, en deux étapes (elle fait SAS):
 1. Elle code le prototype (noyau fonctionnel). Elles ajoutent les tests fonctionnels
 2. Cédric corrige les pb qualité / perfo puis envoit au centre de mission (pb multi thread et similaires). Il ajoute les TUs, wrap en éxécutable PGE
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 De nous d'abord, du segment sol (Charlotte Garcia), du JPL et en OpenSource (utilisés par d'autres scientifiques).
 Lib de stockages en eau réutilisables (par le centre d'expertise)
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * input: besoin identifié (sur GitLab). Ano / Veo
 * Implémente en local (env spider / anaconda)
 * Teste sur un petit set en local sur son PC (le cluster rame trop)
@@ -42,25 +42,25 @@ Lib de stockages en eau réutilisables (par le centre d'expertise)
 * Push git
 * Test de grande échelle (cluster)
 * Merge
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * Dev
   * Python
   * env spider / anaconda
@@ -71,54 +71,54 @@ Lib de stockages en eau réutilisables (par le centre d'expertise)
 * Moins usine logicielle (deuxième phase du SAS, concerne plus Cédric)
   Moins familière de jupiter notebook (aime moins).
   Aime mieux faire du plugin confluence sur le cluster pour produire des résultats (aide à la CALVAL)
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * Pratique à utiliser
 * Léger
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 Fonctionnement justifié par la lenteur du travail sur le cluster (pénible à ouvrir/ multi log etc...). Cluster trop lent (pas le calcul, mais la partie visu très lente)
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 passage à la CALVAL: plus de donnée in situ et similaire mais la tâche reste sensiblement la même.
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / prduits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 Aggreg / interprêtation. Vraiment pas trop (et autres données)
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 pour les lacs pas trop mais peut-être rivières
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 Non
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 Non
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 Stockage en haut. 
 Le MNT:
 * Pour l'instant, en entrée de la simu
@@ -131,84 +131,88 @@ lacs: 3 fichiers:
 On peut voir le "storage change" en multi temporel (différence par rapport aux observation précédentes)? (feature request) 
 mono: 1pixel cloud -> 1 produit
 multi: stocker les fichier par lac pour retrouver l'historique
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 comparaison statistique avec la base de donnée à priori: première levée des erreurs (comparaison de hauteur à la référence par exemple). Outils programmatiques
 fonctions de comparaison entre 2 produits (cycle précédent ou vérité terrain):
 * surface
 * hauteur (- storage change, car c'est une donnée déduite de surface et hauteur)
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 Interpolation: autour du stockage. Prévu pour hauteur et surface (basse priorité): lac observé partiellement mais une partie de l'info est dispo (estimation de la surface manquant) => courbe ipsométriques (impossible si SWOT est trop bruité)
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Pas mal (arrive à faire ce qu'elle veut avec ce qu'elle a)
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 Visualisation et historique mal couvert (historique des lacs notamment, sur courbe)
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 * Rédaction de documents
 * Visualisation sur le Cluster (mieux depuis qu'elle a la fibre, lui permet de bosser en local)
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Récupération / partage / centralisation des données in situ
 * Feedback produit par les utilisateurs (lac manquant > ajout, lac inexistant) > espace d'échange en lien direct (feedback terrain aussi)
 * Partage d'outils ponctuels
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Pourrait proposer leurs outils (ex plugin d'affichage nuage de points dans QGis)
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Carrément (adore)
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 * Un scribe
 * Zone de test / travail qui correspondent à ses zones de perfo, pour compiler sa donnée (type google earth)
 * Prise de recul grâce à d'autres utilisateurs / pro (feedback externe)
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

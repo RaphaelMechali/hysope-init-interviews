@@ -3,35 +3,35 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Hydrologue (école de Grenoble) => a fait carrière chez BRL (Maroc, Congo, vit actuellement en France) un peu de R&D (spatial, métrologie ~= l'hydrométrie)
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
   Bureau d'étude (stratégie échelle région / groupe de pays, et opération d'installation de station) et opérationnel
-<font color="darkcyan">
-</font>
+<span class="user-answer">
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 Crues et alertes de crues
 Gestion de ressources
 L'irrigation
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 Système d'alerte, outillage de bassin versants, études de dimenssionnement amont, ça dépend des projets. Même plateformes informatiques (customisation Wimes)
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 Acteurs étatiques (Congo: direction Meteo, en France similaire, ministères et collectivités locales)
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 Diagnostique préalable > propositions (le détail dépend). On utilise souvent de la modélisation.
 Anedocte => a numérisé des données de 1930 ("boule cristal)
 Utilise de la donnée in situ et complète avec du spatial. Ou spatial pur si aucun in situ, mais rétiscences, mais la pluie c'est pas foufou > collègues développent des algo en R pour recalibrer les images (demande et consommes ces algorithmes)
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * Diagnotisque
   * recueil d'un maximum de données (et critiquer ==> jauge de fiabilité). Ont des outils pour évaluer la données
   * décide des jeux de données retenus
@@ -44,28 +44,28 @@ Utilise de la donnée in situ et complète avec du spatial. Ou spatial pur si au
   * développement de système d'alertes 
   Les données sont souvent très extrapolées (durant les évènements crues / étiage les données sont moins fiables). 
   Tâche: Regarder les niveaux acceptables de prélèvements d'eau (barrage), changement de mode de culture, assainissement de l'eau, etc...
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 * gestion de projet
 * relation clients / partenaires
 * R&D spatiale / métrologie (station low cost de mesure in situ)
 * Veille sur les données dispo à fournir à leur système (ils sont notamment SWOT early adopters)
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * Excell + macro => modèles de gestion de barrage
 * R (algo)
   * Diagramme sur les données in situ (vision d'ensemble et automatisation)
@@ -77,60 +77,60 @@ Utilise de la donnée in situ et complète avec du spatial. Ou spatial pur si au
   * Carte par seuil
 * SIG (Arcgis pre / post traitement), visu dans leur outil Wimes
 * Utilise un peu google earth
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * Outil intégrateur: donnée -> traitement -> alertes
   * Ingère de la donnée
   * Lance des modèles
   * Gère bien les séries temporelles
 * Permet une interface dédiée au projet (indicateurs simples et visuels)
 * Aime Excell pour trifouiller et R pour jouer avec: on en fait ce qu'on en veut
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 * Donnée d'entrée à améliorer: données payantes, manque de données
 prétraitrement: combler les trous de données (homogénéiser, rendre continue)
 postraitement: quantil de pluie, 
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 recueil données et métier client
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / produits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 Oui (pour le modèle GRXX). Sur certains bassin c'est un critère prépondérant (Alpes/Amazonie)
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 Oui (utilisé récemment pour la CEAC - 11 pays d'Afrique)
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui (altimétrie spatial, ils sont moteurs dessus) --> c'est l'entrée de base en hydrologie, pour déduire, avec la pluie, le débit. Sert également à la navigation (a été utilisé pour le fleuve Congo notamment, basé sur Hydroweb puis sur une BD IRD)
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui (donnée la plus compliqué, demande des courbes de tarage)
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 Peu. Lié à ses projets
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 Pas. Lié à ses projets. Si l'eau n'est pas turbide, on peut faire du LIDAR aérien (ce qui permet de faire la batimétrie), sinon on est obligé de recourir à un bateau
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 * température sol / air
 * pluie
 * pluie prévue (prévisions européennes payantes pour les privés, remplacent par le GFS)
@@ -141,87 +141,91 @@ Pas. Lié à ses projets. Si l'eau n'est pas turbide, on peut faire du LIDAR aé
 ---> Ils retopographient quand ils ont besoin
 ---> Calent le modèles la où ils ont l'information, puis "régionalisent" le modèle. Utilisent parfois des réseau de neurones dans ce procédé
 Il veut bien des données approximatives rapidement puis des données qualitatives plus tard
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 *
 * 
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 * Oui parce qu'on palie les manques (lié à un effort sur leur outil interne)
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 * Non parce que R&D et veille
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 * Pérénité (projet fini, suite peu péreine)
 * Pression des projets (contrainte délai / budget)
 * Plus compliqué pour les privés, facilité pour les institutionnels
 * Limite en capacités de calculs, regardent pour le cloud, limite en place sur les postes
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 Oui, peu maîtrisé
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 Non. Eventuellement altimétrie spatiale (un collègue peut éventuellement, GFS très utilisé). Demander à Stéphane.
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 non
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 Existe déjà (groupe) en altimétrie spatiale
 "Les réseaux font partie de notre métier". Toujours intéressant
 * nous permet de nous tenir informer 
 * débouche sur des partenariats
 * fait émerger des projets
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Moteur sur l'altimétrie spatiale
 * Contact terrain, "vrai besoins", réalité terrain pour le spatial ==> contribution à l'amélioration des chroniques d'altimétrie
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Délicat de répondre => choix de sa direction.
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 * Futurs produits SWOT >> du SWOT en continu (ils ne peuvent pas développer dessus à cause de l'arrêt à 3 ans)
 * Données d'entrée de haute qualité (pluie / pluie prévue / MNT)
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
  --> Positionne des stations (via google earth engine). Se méfie de la carotte gratuit puis payant
  --> Déport de calcul dans le cloud (contrainte forte pour eux, fonction des sujets, mais dimensionnant pour l'alerte de crue)
-</font>
+</span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

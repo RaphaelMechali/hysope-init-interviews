@@ -3,198 +3,203 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Service DSO SI TR, SWOT HYDRO depuis 2008-2009
 Coordinateur d'activités
 Thèse au CesBio sur l'imagerie radar
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Scientifique, prépare
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 prépare CalVal, coordonne les équipes SWOT: définition du produit, documentation, implémente les algos (proto avant).
 Coopère avec SDS pour rendre les soft opérationnels et exploitables
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 * algorithmes & évaluation de performance
 * documentation produit
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 Consommés par la "science team" et utilisateurs des données / projets (il tient les specs => facile à utiliser, répond au besoin)
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 * GitLab synchrone avec l'équipe JPL (USA) et reviews croisées
 * Confluence pour la communication avec les sous-traitants
 * Pas d'outils standard
 * beaucoup de code de simulation (par le JPL en C, récupère les binaires, se sont fait simu simplifié en Python)
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * regrouper les données nécessaires pour la simu (MNT, Landcover pour occupation des sols) et injecter des vérités terrain. **Uniquement durant le développement d'algo**
 * Injecter de vraies données pour la CALVAL **uniquement CALVAL** (attentes HI2; données in situ)
 * chaîne de traitements
 * Produits: Niveau d'eau, étendu surface d'eau principaux. Plus haut niveau: stock, débit (moins validé aujourd'hui, donc un peu moins intéressant).
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 QGis (mais pas trop lui)
 Visu qui vient de JPL (mais trop lui)
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / produits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
  Volume d'eau (stock)
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 Actuellement: Python pour générer des rapport: compare la vérité terrain avec le produit (par pixel / par image / par rivière / par lac). Par exemple, -de 15% d'erreur surface d'eau (erreur à 1 segment?). Note: écart type acceptable <= 1sigma (10cm)
 Leur génère un doc Latex avec courbes.
 En CALVAL: utiliseront de vraies vérités terrains, pas générées.
 Courbes:
 * Fonction de où on est dans la fauchée x qualité
 * Erreur de surface (Y) OU Hauteur / diff hauteur, X: taille du lac, endroit de la fauchée
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 visualisé directement (notamment pour trouver les erreurs, comparer image optique et in situ).
 Même type de courbe
 Méthodes du JPL éventuellement imposée, peut nécessiter des conversions pour échanges entre labos
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Plutôt oui (des outils ajoutés en une décennie, aspect très dev., un peu partage de données aussi via le cloud amazon bucket, notamment pour les données in situ / simu)
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 Non ce n'est pas fini
 simu OK
 attentes:
 * adaptation pour pouvoir faire l'évaluation algo / données, récupération de vraies données
 * visualisation à améliorer
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 beaucoup de travail de mise en oeuvre des outils, calculs longs
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * En lien avec quelques personnes de la Science Team, qui amènent des mesures terrain (in situ, batimétrie, campagnes de mesures).
 * Aimerait travailler avec groupes de scientifiques (feedback communautaire)
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * La donnée SWOT, performante et fiable (hauteur / surface)
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Oui, ça pourrait aller
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 Récupérer les données de référence en ligne automatiquement (à ingérer / convertir toutes les 7 minutes depuis les agences de mesures)
 Visu 3D, courbes, produits différents
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 Outil ouvert: comm scientifique interne / externe
 Récupération facile des données
 diverses visu dans l'outil
 traitements à grande échelle
 comparaisons à grande échelle
-</font>
+</span>
 
 
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

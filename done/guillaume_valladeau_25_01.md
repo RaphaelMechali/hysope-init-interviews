@@ -3,99 +3,104 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">ingé généraliste ~ Océanographie (dEA atmo /env) -> LEGOS -> CLS. 2020: fonde Vortex.io => fournir des mesures temps réels en hyrdologie continentale à partir de télédétection (drone ou station fixe)</font>
+<span class="user-answer">ingé généraliste ~ Océanographie (dEA atmo /env) -> LEGOS -> CLS. 2020: fonde Vortex.io => fournir des mesures temps réels en hyrdologie continentale à partir de télédétection (drone ou station fixe)</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-  <font color="darkcyan">complète les mesures alti / imagerie. Solution de complétion (gouvernance de l'eau / rsique sécheresse et inondation)</font>
+  <span class="user-answer">complète les mesures alti / imagerie. Solution de complétion (gouvernance de l'eau / rsique sécheresse et inondation)</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">algorithmie, traitement du signal</font>
+<span class="user-answer">algorithmie, traitement du signal</span>
   * Pour quel résultat?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Pour qui?
-  <font color="darkcyan">Intercomparaison</font>
+  <span class="user-answer">Intercomparaison</span>
   * Comment?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Etapes?
-  <font color="darkcyan">calibration (précision au cm)</font>
+  <span class="user-answer">calibration (précision au cm)</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">Preparer mission drone? => </font>
+<span class="user-answer">Preparer mission drone? => </span>
   * Pour quel résultat?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Pour qui? (lui-même ?)
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Comment?
-  <font color="darkcyan">outils internes de préparation. Drones apportent de l'information. Vortex.io Référent de validation donnée SWOT.</font>
+  <span class="user-answer">outils internes de préparation. Drones apportent de l'information. Vortex.io Référent de validation donnée SWOT.</span>
 * Quels outils actuels?
-<font color="darkcyan">Routines et carto python, dev C/C++, visualisation à façon. Quelques outils CNES (HAL). Drones (précision \< 5cm) et in situ (\< 1cm)</font>
+<span class="user-answer">Routines et carto python, dev C/C++, visualisation à façon. Quelques outils CNES (HAL). Drones (précision \< 5cm) et in situ (\< 1cm)</span>
   * Quels points forts?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Quels points d'amélioration?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Quels points d'intégration?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
 * Quelles données? 
-<font color="darkcyan">AUCUNE (déjà bien doté)</font>
+<span class="user-answer">AUCUNE (déjà bien doté)</span>
   * Neige (couverture / prduits dérivés)
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * SWE (volume eau / neige)
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Surface d'eau (pixel eau)
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Hauteur d'eau
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Débit d'eau
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Température
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Turbidité
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Autres?
-  <font color="darkcyan">peuvent partager / vendre leur données (fonction des cas)</font>
+  <span class="user-answer">peuvent partager / vendre leur données (fonction des cas)</span>
 * Quelles méthodes
   * d'exploitation
-  <font color="darkcyan">envoi temps réel > chaînes algo (filtrage)> + éventuelles données extérieures (ex: paramètres météo CMWF, pour pluviométrie, inondation puis autre techno pour évaluer surface genre satellitaire) > mise à disposition (via plateforme ou ) </font>
+  <span class="user-answer">envoi temps réel > chaînes algo (filtrage)> + éventuelles données extérieures (ex: paramètres météo CMWF, pour pluviométrie, inondation puis autre techno pour évaluer surface genre satellitaire) > mise à disposition (via plateforme ou ) </span>
   * de comparaison
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * d'extrapolation
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">Oui</font>
+<span class="user-answer">Oui</span>
   * Totalement couverte?
-  <font color="darkcyan">Non: alti / satellitaire méconnus, dommage pour promouvoir ce type de données. Intercomparaison directe</font>
+  <span class="user-answer">Non: alti / satellitaire méconnus, dommage pour promouvoir ce type de données. Intercomparaison directe</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">Méconnaissance données alti, formalismes et formats différents (BDO et autres). Suggère Sandre pour pouvoir comparer satellite et in situ. Billet d'entrée trop cher. Fiabilité de la donnée satellitaire: lever le doute en permettant la comparaison!</font>
+<span class="user-answer">Méconnaissance données alti, formalismes et formats différents (BDO et autres). Suggère Sandre pour pouvoir comparer satellite et in situ. Billet d'entrée trop cher. Fiabilité de la donnée satellitaire: lever le doute en permettant la comparaison!</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan"></font>
+<span class="user-answer"></span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">Oui (les fondateurs ont contribué, à Hydroweb en particulier)</font>
+<span class="user-answer">Oui (les fondateurs ont contribué, à Hydroweb en particulier)</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">non</font>
+<span class="user-answer">non</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">Non pas souvent mais parfois. Copernicus ponctuellement également (niveau 1 / 2).</font>
+<span class="user-answer">Non pas souvent mais parfois. Copernicus ponctuellement également (niveau 1 / 2).</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">Esprit collaboratif (action / risque, trop peu de points de mesure), partage des données connues par d'autres</font>
+<span class="user-answer">Esprit collaboratif (action / risque, trop peu de points de mesure), partage des données connues par d'autres</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">apport de vision / méthode (comparaison avec spatial)</font>
+<span class="user-answer">apport de vision / méthode (comparaison avec spatial)</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">Oui (tech: demander plutôt Jean-Cristophe, méthodo plutôt Guillaume)</font>
+<span class="user-answer">Oui (tech: demander plutôt Jean-Cristophe, méthodo plutôt Guillaume)</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 * accès rapide aux stations virtuelles / vigicrue / vortexio (affichage sur bassin versant simultanée) -> date de dernière et prochaine acquisition. Idéal pour promotion de données. Hauteur, turbidité, etc..., peu importe, toujours intéressant.
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
 * Visualiseur
-<font color="darkcyan"></font>
+<span class="user-answer"></span>
 
 ## Conclusion
 
 Utilisateur marginal OU évalangiste (ambssadeur) données satellitaires (complémentaire avec la donnée produite par Vortex.io)
 Besoin principal: démonstratoire / commercial
 
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

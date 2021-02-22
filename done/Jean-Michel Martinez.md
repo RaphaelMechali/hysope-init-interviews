@@ -3,39 +3,39 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Physicien de formation (M2 télédétection, doctorat télédétection)
 Puis surtout en hydro (couleur des eaux pour la qualité, surfaces en haut ~ optique / radar) ~ 20 ans
 A utilisé capteur S3, Modis, ou HR
 Métier: Dév de chaînes et exploitation (pour gestionnaires, end user, scientifiques pour études)
 travaille à l'IRD
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Scientifique, contact opérationnel
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 Rédaction de mails
 Dév de chaînes et tests
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 * La chaîne en elle même
 * Etude de cas d'évolution, études environnementales (état de la qualité de l'eau continentale, beaucoup de tropical): Impact de l'activité minière, l'eutrophisation de lac (transport de sédiment et qualité de l'eau)
 Fait de la formation: master / doctorat / gestionnaires.
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 Pour l'agence de l'eau du Brésil (transfert de chaîne de données Modis, hydrosat), pour des scientifiques
 20% gestionnaires ressources et end user, 80% scientifiques
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 - cf étapes
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * identifie un besoin en partenariat avec des gestionnaires
 * part de produits type Maya
 * essaie d'identifier problèmes d'images et de les résoudre
@@ -43,81 +43,81 @@ Pour l'agence de l'eau du Brésil (transfert de chaîne de données Modis, hydro
 * maintenant supervise le dev des chaînes (définit et porte le besoin). 
 * valide les chaînes
 * exploite les chaînes, produit les études (avec étudiants), les fournit au gestionnaire 
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 * Observatoire conventionnel de la qualité de l'eau en Amazonie (contribue les données à Theia>Ozcar)
 * Envoie des mails
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * cluster CNES et OFB (Organisme Français pour la Biodiversité)
 * S2/S3 avec leur moyens locaux
 * Données terrains (drones, in situ) et satellitaire
 * Données HR ==> code Python, SNAP, Java
 * Données BR ==> code Java serveur
 * Visu: Python (lib)
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * Cluster: gère bien la masse d'information!
 * Aspect dev (leur point fort)
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 * Aggrégation / centralisation de produits qui leur sont nécessaire (masque eau / masque neige)
 * Espace nécessaire pour les calculs (pays / partie de continents)
 * Facilité de mise à disposition pour la communauté et de démonstration
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
-</font>
+<span class="user-answer">
+</span>
   * Neige (couverture / produits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 OUI
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 OUI
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 * produits de niveaux 1C
 * masque eaux (SurfWater), nuages, neige (EumetSat, WaterFullResolution)
 * Réflectance (Maya? 2A moins précis les intéresse)
@@ -125,83 +125,87 @@ Oui
 * A aussi besoin des aérosols (Synergy)
 * Mesure de Chlorophyle
 * NAIADE
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 Méthodes mathématiques (MonteCarlo, Radom Forest, Machine Learning), regression statistique (R puis Machine Learning), nombre de canaux spectraux, gros jeux de données
 Se dirige progressivement vers de l'analyse Big Data
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 Commence à travailler sur des problématiques d'interpolation / extrapolation par modèle
 modélisation des flux d'abord, puis modélisation qualité. (utilisent SWAT, même famille que MGB mais complètement ouvert, qui modélise les flux)
 Veulent passer à l'échelle continentale
 Veulent à terme de développer une chaîne qui peut utiliser toutes les données de couleur disponibles (MODIS, Sentinel, …etc)
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 attend HI2 pour travailler à une échelle continentale, voir globale
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 Comment récupérer les jeux de données (éclatement des sources => masques eau, neige, etc...): grosse complication d'unification, vu qu'ils mélangent un peu toutes les sources (et parfois remplacent S2 par S3 en cas d'image manquante, par exemple)
 Gros calcul (mais cluster, **vérifier avec l'enregistrement**)
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 Oui un peu (Ozcar)
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Récupérer et adapter des bouts de routine pour gérer des jeux spécifiques, des codes d'exploit/big data/autres
 * Apport d'idées d'utilisateurs
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Connaissance autour de nos produits, montrer / démontrer l'intérêt
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 * Chaînes qui tournent sans problèmes de différentes sources (plus d'intervention humaine quotidienne), sur des volumes importants. Problème de changement de repertoires sources
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 * Endroit unique ou accéder à toute la donnée
 * stable et sans problème de dépendances
-</font>
+</span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

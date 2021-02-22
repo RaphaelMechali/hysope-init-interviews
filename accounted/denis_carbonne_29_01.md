@@ -3,105 +3,109 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">Département DSO SITR, depuis 7 ans (30 ans de CNES). Intervient sur SWOT (et en parrallèle activités avales). S'estime techniquement moins fort que Roger. A fait beaucoup d'activité opérationnelles (méca spatiale). Craint une pression importante lors de la CALVAL SWOT</font>
+<span class="user-answer">Département DSO SITR, depuis 7 ans (30 ans de CNES). Intervient sur SWOT (et en parrallèle activités avales). S'estime techniquement moins fort que Roger. A fait beaucoup d'activité opérationnelles (méca spatiale). Craint une pression importante lors de la CALVAL SWOT</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-  <font color="darkcyan">OP / scientifique</font>
+  <span class="user-answer">OP / scientifique</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 * Traiter la données au fil de l'eau = Données SWOT => L1, L2 (hauteur rivière lac / reach (noeud de changement marqué ~= évènement) / lieu etc)
 * Comparer à l'existant, fourni par les utilisateurs (genre mesures in situ) => faire coller les deux!
 * Produire pour des résultats pour les scientifiques et les utilisateurs. Discussions à prévoir pour voir ce qu'ils attendent de ces données (rebouclage)
 
 données brute (traitement)> Pixel Cloud (traitement)> Rivières / masse d'eau OU (traitement)> données lac. Fichiers de confs à mettre en place au cas par cas, au départ (mais devrait l'être après)
-</font>
+</span>
   * Pour quel résultat?
-  <font color="darkcyan">PixelCloud (en NetCDF et shapefile=QGIS.vectoriel) de hauteur de rivières (bruit) puis traitement pour redéfinir la rivière</font>
+  <span class="user-answer">PixelCloud (en NetCDF et shapefile=QGIS.vectoriel) de hauteur de rivières (bruit) puis traitement pour redéfinir la rivière</span>
   * Pour qui?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Comment?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Etapes?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">Communication avec les utilisateurs / scientifiques à prévoir (mais non mis au point)</font>
+<span class="user-answer">Communication avec les utilisateurs / scientifiques à prévoir (mais non mis au point)</span>
   * Pour quel résultat?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Pour qui? (lui-même ?)
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * Comment?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
 * Quels outils actuels?
-<font color="darkcyan">QGis (déporté sur HPC), outils de simulation / calcul (simu JPL: SWOT-hydrology-toolbox, par le JPL, RiverOps, par le JPL, et dernier outil à voir avec Claire Pottier)</font>
+<span class="user-answer">QGis (déporté sur HPC), outils de simulation / calcul (simu JPL: SWOT-hydrology-toolbox, par le JPL, RiverOps, par le JPL, et dernier outil à voir avec Claire Pottier)</span>
   * Quels points forts?
-  <font color="darkcyan">NA, ils ont le mérite d'exister</font>
+  <span class="user-answer">NA, ils ont le mérite d'exister</span>
   * Quels points d'amélioration?
-  <font color="darkcyan">Mise à jour des outils JPL trop fréquentes, impacte les format de données et paramètres! (on est content quand ça marche!) Attend la stabilité des outils JPL (et s'en inquiète) --> Point intéressant pour le centre d'expertise SWOT (ou STYX / HYMOTEP)</font>
+  <span class="user-answer">Mise à jour des outils JPL trop fréquentes, impacte les format de données et paramètres! (on est content quand ça marche!) Attend la stabilité des outils JPL (et s'en inquiète) --> Point intéressant pour le centre d'expertise SWOT (ou STYX / HYMOTEP)</span>
   * Quels points d'intégration?
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
 * Quelles données? 
-<font color="darkcyan">NA pour cet utilisateur</font>
+<span class="user-answer">NA pour cet utilisateur</span>
   * Neige (couverture / prduits dérivés)
-  <font color="darkcyan">Oui</font>
+  <span class="user-answer">Oui</span>
   * SWE (volume eau / neige)
-  <font color="darkcyan">Non</font>
+  <span class="user-answer">Non</span>
   * Surface d'eau (pixel eau)
-  <font color="darkcyan">Oui</font>
+  <span class="user-answer">Oui</span>
   * Hauteur d'eau
-  <font color="darkcyan">Oui</font>
+  <span class="user-answer">Oui</span>
   * Débit d'eau
-  <font color="darkcyan">Non (indirectement)</font>
+  <span class="user-answer">Non (indirectement)</span>
   * Température
-  <font color="darkcyan">Non</font>
+  <span class="user-answer">Non</span>
   * Turbidité
-  <font color="darkcyan">Non</font>
+  <span class="user-answer">Non</span>
   * Autres?
-  <font color="darkcyan">
+  <span class="user-answer">
     -> dates des produits <span color="red">? </span>
     -> conditions météo (vent)
-  </font>
+  </span>
 * Quelles méthodes
   * d'exploitation
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * de comparaison
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
   * d'extrapolation
-  <font color="darkcyan"></font>
+  <span class="user-answer"></span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">Moyennement</font>
+<span class="user-answer">Moyennement</span>
   * Totalement couverte?
-  <font color="darkcyan">Non</font>
+  <span class="user-answer">Non</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">NetCDF un peu lourd en manip</font>
+<span class="user-answer">NetCDF un peu lourd en manip</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan"></font>
+<span class="user-answer"></span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">Pas vraiment (a un peu utilisé)</font>
+<span class="user-answer">Pas vraiment (a un peu utilisé)</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">Non</font>
+<span class="user-answer">Non</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">Peps: oui (pour d'autres projets), utilise également les données Sentinel1.</font>
+<span class="user-answer">Peps: oui (pour d'autres projets), utilise également les données Sentinel1.</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Echanges rapide (qualité des produits et mesures)
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * Du support autour des produits
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">Intéressé par les aspects ergo / fonctions</font>
+<span class="user-answer">Intéressé par les aspects ergo / fonctions</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">Des outils rapides. Par exemple: QGis utilise des gros fichiers, c'est long (5 minutes d'affichage pour une rivière). A essayé de remplacer des traitement QGis par photoshop</font>
+<span class="user-answer">Des outils rapides. Par exemple: QGis utilise des gros fichiers, c'est long (5 minutes d'affichage pour une rivière). A essayé de remplacer des traitement QGis par photoshop</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">Rapidité d'application des prétraitements et traitements de visu et graphiques (autant calibration qu'exploitation). La taille dispo des volumes doit être visible (pour anticiper et être zen!) --> Point intéressant pour le centre d'expertise SWOT (ou STYX / HYMOTEP) </font>
+<span class="user-answer">Rapidité d'application des prétraitements et traitements de visu et graphiques (autant calibration qu'exploitation). La taille dispo des volumes doit être visible (pour anticiper et être zen!) --> Point intéressant pour le centre d'expertise SWOT (ou STYX / HYMOTEP) </span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

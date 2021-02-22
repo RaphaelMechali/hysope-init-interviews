@@ -2,43 +2,43 @@
 
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Cesbio: recherche avec tutelle (UPS, INRA, etc...)
 early adopter
 suivi de la végétation, étude de la biodiversité
 fait partie du segment observation, pour alimenter le segment modélisation
 Travaille sur les séries temporelles de données spatiales à haute-résolution
 Ingé telecom
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Scientifique
 Volet OP (cartographie d'occupation des sols): fait tourner / développe / qualifie IOTA2
 Produit des traitements à destination des opérationnels
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 développement, traitement 50%
 encadrement de thésard, travail de labo 50%
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 Code dans un dépôt GIT: algorithmes
 Quelques Go de donnée produite
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 Ca dépend: 
 1. datascience: code pour générer des résultats de publication (autre scientifique). Stat + donnée + algo => étude thématique
 2. engineering: produire de la donnée et de la méthode pour d'autres utilisateurs
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 1. notebook => analyse via code scripté (sans excell)  et commentaires. Python
 2. IDE (EMACS). connait des gens qui utilisent JUPITER (C / C++ parfois, Python en général)
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 1. datascience
   1. collecte des données (images, mesures terrains, etc...)
   1. exploration en code (lignes de commande => stats)
@@ -52,25 +52,25 @@ Ca dépend:
   1. L'algorithme / la chaîne est intégré 
     * A| dans leur soft 
     * OU B| par l'équipe de production du CNES - Théia (ou autre collaborateur)
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * EMacs (IDE)
 * Environnement CONDA (Python)
 * Git
@@ -78,141 +78,141 @@ Ca dépend:
 * MatPlotLib (Python)
 * Images: plutôt QGis
 * Travaille avec HAL (datalake / espace projet). Pas de gestion de conf pour les données moins volumineuses. Cesbio a une BD GIS (ses collègues l'utilisent mais pas lui)
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * "composabilité" (indépendant mais travaillent bien ensemble), peu contraignant
 * Flexibilité / souplesse
 * Polyvalence
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 * Learning curve (nécessairement, mais pas un vrai inconvénient)
 * collaboration externe plus compliquée (se sont les habitudes de son équipe)
 * obsolescence des libs / versions. 
   * Gestion des dépendances de Conda
   * Maintenabilité / obsolescence des libs choisies par ses utilisateurs
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 peu, bien standardisé, bien géré par les libs
 Stack "fragile" (pb de versions), demande du temps
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 plutôt producteur, n'utilise pas ces variables
-</font>
+</span>
   * Neige (couverture / prduits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 produit occupation des sols
 pourrait utiliser des humidités de surface
 BD terrain ou mesure terrain (variable catégorielle / quantatif comme indice "foliaire", variables biophysiques => points ou polygones, shape / sqlite).
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 * pour la production
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 * Calcul de métriques ponctuel: calcul d'erreur, pas de visu
 * Code de comparaison, overall accuracy (CAPA)
 peu de visualisation, juste pour la validation qualitative et l'illustration, "pattern bizarres"
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 * Extrapolation: Forecast d'analyse (algo spécifiques, expertise humaine)
 * Interpolation: données à trous => paramétrage d'interpolation à faire à chaque fois (algos connus: **TODO obtenir la liste des algo et paramètres**) De base approche naïve: réplication de la dernière valeur connue
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 Il y travaille
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 * gestion des dépendances (côté très dev)
 * accès à distance peu performants (bastion / cluster GRRRRRR, trop complexe et lent)
 * VRE n'est pas bien pour lui (voudrait travailler sur son poste, pas de mode minitel, ne déporter que ce qui est nécessaire. Ils ont bricolé des solutions)
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * feedback et priorisation
 Via Theia ils ont déjà un embryon de communauté -> contactés par email
 Sur leurs outils, plus simple (contact direct)
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 acteurs historiques Theia, n'est pas trop dans cette démarche
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Non pour lui, demande à ses collègues (early adopters???). **TODO: trouver des membres de son équipe pour la conception, @lionel**
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 * Meilleur accès aux ressources
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 Tout local, API déport de traitement
-</font>
+</span>
 
 
 ## Note: Solution élaborée avec Jordi (par Lionel)
@@ -234,3 +234,10 @@ my_h2_output = my_h2_datacube.apply(function_quelconque, params_function)
 
 ### Je récupère le résultat en local
 my_h2_output.load()
+
+
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

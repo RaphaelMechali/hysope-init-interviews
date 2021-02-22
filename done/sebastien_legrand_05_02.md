@@ -3,193 +3,197 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Ingénieur généraliste (Les mines St Etienne), Compagnie Nationale du Rhone, travaille en modélisation hydro (concessionaire du fleuve Rhone => en 1930 l'état leur procure le contrat de gestion et d'exploitation => navigation, irrigation, electricité, 1/4 prod hydro elec française, 14 écluses...). Travaille à la direction de l'ingénierie, autres missions ==> projet spatial bassin du Congo et altimétrie spatiale (membre de SWOT).
 Peu d'outils universitaires encore utilisés (hors stats)
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Interne: appui exploitation (opérationnel)
 Externe: bureau d'étude
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 gestion de projet
 récupération de jeux en hydro, analyse et critique, mise au propre (données manquantes, aberrantes, conversion éventuelle), puis caler un modèle (souvent décider en amont) => calage / validation
 Modèles GR ou autres en fonction du besoin (échelle Grand BV, par ex Congo 150 000 km², Rhône découpé en 22 affluents)
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 Modèle pertinent répondant au besoin du client (prévision de débit notamment)
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 client ou lui même. Raccrocher le modèle au système info et décision
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 Critère de validation.
 Modèle de chroniques comparés à l'observés. Route Min Square Error (erreur quadra), MAE (Min Absolute Error) ~MAD (précision Lionel la nomenclature) critères de bilan (bilan bien retrouvé sur une année), Critère de persistence (pour prédictif) => quantifié l'apport du modèle par rapport à un modèle "naïf"
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 * Récupérer des jeux: Ex au Congo (hauteur Sanga, affluent) ==> Ne savait pas où il y avait des données. N'a pas trouvé dans Hydroweb. CLS / IRD Legos, mis en contact par le groupe de travail hydro spatial, lui ont traité des données brutes (ici exceptionnellement non fourni par le client / in situ, d'habitude in Situ, mesuré par eux-mêmes - Rhône - ou leur client). Cas un peu exceptionnel 
 * Analyser et critiquer: fréquence importante (vérification de la donnée dispo / manquant), tracer débit / temps (détecter les comportements anormaux, type ruptures, données aberrantes), comparaison avec d'autres données (débit VS hauteur par exemple, débit VS débit autres sources, choisit par crédibilité de la source via les exploitants de terrain)
 * Mettre au propre
 * Caler: donner de précipitation (prévi ou mesure, ça dépend, utilise terrain et données de réanalyse, prévision pour d'autres tâches prévision). Partenariat Météo France. tâche sur plusieurs années
 * Valider
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * BD interne, pour stocker les données hydro
 * R (travail de calage). Résultats tableaux et graphiques (R Studio)
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * R => Très utilisé en hydro, possibilité de se partager les libs (AIRGR contient les modèles de l'INRAE en OpenSource, déjà codé) 
 * BD: Répond à son besoin précisément, acquisition à fréquence < heure. Recherche par nom station, carto
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 Nop
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 X
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / produits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 OUI, ils ont un outil utilisant Caméra et Modis (satellite Aqua & Terra) pour faire le suivi du manteau neigeux
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 OUI (ils travaillent dessus): le plus intéressant pour eux (par rapport à la couverture)
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 Oui (info sup pour eux là où c'est géré par d'autres), à voir
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui, moins intéressant / pertinent que le débit, intéressant pour le déduire
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui (max)
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 Pas trop (n'utilisent pas vraiment), content de savoir que ça existe
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 Même réponse
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 * Donnée météo (précipitations)
 * ETP
 * vent
 * humidité du sol (pourrait, pour de l'étiage par exemple, mais pas utilisé aujourd'hui)
 * rayonnement (à creuser): éolien, photovoltaïque?
 * nébulosité (à creuser): éolien, photovoltaïque?
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 * Manque de données (tous types, hydro (débit), météo, MNT). Ils s'en sortent sur les précitation
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 * Mauvaise qualité des données: lacunes, incohérence, imprécision, période mesurée trop courte. Temps de travail liés important.
 * La prévision requiert une mise à disposition rapide (attente sous quelques minutes, moins d'1h). Les données de calage doivent être disponibles **après le calage**.
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 Il y en a et ils sont dans certaines:
 * Principalement EDA méthodes et techniques requises (hydro et modélisation, spatial)
 * Comparaisons aux problématiques et solutions des autres
 * Retraitement des données satellitaires parfois
 **Indispendable**
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 La même chose! Progression mutuelle.
 Reverse aujourd'hui des données à la banque hydro.
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 A rediscuter en interne. Reviens vers nous.
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 * Temps de calcul
 * Faciliter la récupération des données sur une interface et mise en forme des données adaptée
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
-
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>

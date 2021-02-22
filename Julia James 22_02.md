@@ -3,47 +3,47 @@
 ## Volet général
 
 * Présentation (nom métier, organisme, formation universitaire)
-<font color="darkcyan">
+<span class="user-answer">
 Master recherche histoire (politique env. haute montagnes).
 License pro 
 CDI chargée d'études (socio éco) et chargée de clientèle
 télédétection et cartographie
-</font>
+</span>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
-<font color="darkcyan">
+<span class="user-answer">
 Opérationnelle (la recherche est en amont ou en partenariat)
 But: rendre la science accessible (gratuit / libre / service à coût)
-</font>
+</span>
 * Quel tâche métier principale? 
-<font color="darkcyan">
+<span class="user-answer">
 Ilôts de chaleur
 Zone à risque d'érosion
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 Faire un rendu carto: sensibiliser, étude d'impact, analyse de risque, cerner les zones inondées, analyse et rendu statistique.
 Suivre l'évolution par zone (couverture végétale, stats). 
-</font>
+</span>
   * Pour qui?
-<font color="darkcyan">
+<span class="user-answer">
 Collectivités locales, agglo, syndicats des eaux, réseaux sociaux, TF1 (a demandé les fichiers brutes pour respecter leur mise en forme), presse
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 Utilisent Envy pour les analyses (payant) et QGis carto
-</font>
+</span>
   * Etapes?
-<font color="darkcyan">
+<span class="user-answer">
 Téléchargement de l'image, traitée sur SNAP (dont graphbuilder)
 Travail d'image (Envy pour support, MathLab clusterisé), découpage, seuil, classification
 Mise en forme carto: QGis
-</font>
+</span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
-<font color="darkcyan">
+<span class="user-answer">
 Chargée de clientèle : exemples de carto. Chargée de comm ==> carte pédagogiques
-</font>
+</span>
   * Pour quel résultat?
-<font color="darkcyan">
+<span class="user-answer">
 nouveau site internet acmg.asso.net? 
 * Clientèle
   * carto hors norme (échelle variante)
@@ -53,13 +53,13 @@ nouveau site internet acmg.asso.net?
   * Carte répartion climat
   * Carte attirante, peu de logos, beaucoup de couleur, du bâti. Adaptée Viridis (bleu au vert, pour daltoniens)
 Peuvent être A3 (poster) ou A4 (powerpoint)
-</font>
+</span>
   * Pour qui? (lui-même ?)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Comment?
-<font color="darkcyan">
+<span class="user-answer">
 Téléchargement:
 * image Théia / Peps / Copernicus (Sci-Hub) / Landsat (usgs earth explorer)
 * carto pure: IGN
@@ -71,9 +71,9 @@ Téléchargement:
 * Datagouv et autres pour les départements
 
 toujours QGis.
-</font>
+</span>
 * Quels outils actuels?
-<font color="darkcyan">
+<span class="user-answer">
 * QGis
 * Snap
 * Envi: image de température
@@ -82,18 +82,18 @@ toujours QGis.
 * Facebook (agricole), Twitter, LinkedIn, Vidéos Youtube
 * a un serveur distant pour travailler
 
-</font>
+</span>
   * Quels points forts?
-<font color="darkcyan">
+<span class="user-answer">
 * ALL instinctif
 * QGis (2.18, mais utilise aussi la 3.x pour la 3D) est plus ludique que ArcGis, communauté plus intéressante
 * Excell > rapide, bon support
 * Snap: installation facile, intuitif, peu gourmand en ressources
 * Envy: payant mais très bien! (support, facilité d'utilisation, ) Exemple: polygonisation d'une zone 35min face à 8h. Très compatible avec QGis
 * Google Earth Engine avec KML et KMZ, effet WAOUH, a utilisé pour transférer des données à un client
-</font>
+</span>
   * Quels points d'amélioration?
-<font color="darkcyan">
+<span class="user-answer">
 * N'aime pas PostGIS (le délègue à son collègue qui aime faire ça)
 * Données: insuffisant
 * QGis: simplifier les étapes (créer un BV: trop d'étapes, mieux sur ArcGIS).  Boîte à outil trop complexe
@@ -106,135 +106,141 @@ toujours QGis.
 * 100 caractères de plus sur twitter
 * Référencement Youtube compliqué
 * LinkedIn emoticon pénibles à faire
-</font>
+</span>
   * Quels points d'intégration?
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 * Quelles données? 
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
   * Neige (couverture / produits dérivés)
-<font color="darkcyan">
+<span class="user-answer">
 Oui si publiée récemment (tous les 15j). Actuellement non
-</font>
+</span>
   * SWE (volume eau / neige)
-<font color="darkcyan">
+<span class="user-answer">
 Non mauvaise comm?
-</font>
+</span>
   * Surface d'eau (pixel eau)
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Hauteur d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui, fonction des cours d'eau (pour le petits!)
-</font>
+</span>
   * Débit d'eau
-<font color="darkcyan">
+<span class="user-answer">
 Oui, fonction des cours d'eau (pour le petits!)
-</font>
+</span>
   * Température
-<font color="darkcyan">
+<span class="user-answer">
 Oui (landsat 8)
 Température de surface: mesuré par eux mêmes
-</font>
+</span>
   * Turbidité
-<font color="darkcyan">
+<span class="user-answer">
 Calculé par leur station, la veulent bien. Mal communiqué
-</font>
+</span>
   * Autres?
-<font color="darkcyan">
+<span class="user-answer">
 Température air
 Prévisions météo
 micro BV: largeur maxi / mini
 en plus de hauteur d'eau, hauteur entre fond et berge (pour prévision crue) ~= profondeur du lit
 aménagement des berges (urbain / végétation / habitation), occupation de la zone tampon
-</font>
+</span>
 * Quelles méthodes
   * d'exploitation
-<font color="darkcyan">
+<span class="user-answer">
 demander à Maël?
 système de seuil statistique
 Jean François, dans commité Eau et Climat, utilise le résultat (modèle) => étudie le positionnement, propose des stratégies (lacs, irrigations, etc...). Ils mesurent les ilots de chaleur sur le terrain au préalable
-</font>
+</span>
   * de comparaison
-<font color="darkcyan">
+<span class="user-answer">
 stats de répartition (% d'occupation, calcul et évo de surface, température et dégagement de corrélations)
 très peu automatisé aujourd'hui (mais pourrait)
-</font>
+</span>
   * d'extrapolation
-<font color="darkcyan">
+<span class="user-answer">
 Analyse de pixel mais sinon préfères une courbe coupée à une courbe fausse. Même raisonnement au niveau pixel (préfères le pixel "noir")
 Son collègue p-e sur du Radar / de l'optique (image avant après)
 Modèle interne: telle temp => batiment / ilot de chaleur, évolution connue et corrélation => interpolation de la température du bâtiment (est-ce que mes bâtiments seront menacés dans un futur)
 Beaucoup de modélisation des pluies / climats, sur plusieurs scénarios (3 en général)
-</font>
+</span>
 * Tâche métier actuellement bien outillée?
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
   * Totalement couverte?
-<font color="darkcyan">
+<span class="user-answer">
 Manque de données sinon oui
-</font>
+</span>
 * Quels points pénibles (outils / données / volumétrie / format / etc...)
-<font color="darkcyan">
+<span class="user-answer">
 QGis plante ("plantage dumpé, enregistrement dans C impossible") => toute la symbolique à refaire
 Création de BD complexe (requiert Python, SQL, mais ça pourrait être graphique, pour créer des couches shapes!)
-</font>
+</span>
 * Illustrer tâche métier durant l'interview? (si moins de 20 minutes)
-<font color="darkcyan">
+<span class="user-answer">
 
-</font>
+</span>
 
 ## Volet intégration HI2
 
 * Etes vous familiers avec les services Theia?
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
 * Utilisez-vous des données Theia régulièrement?
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
-<font color="darkcyan">
+<span class="user-answer">
 Oui (cf. au dessus)
-</font>
+</span>
 
 ## Communauté
 
 * Que pourrait vous apporter la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * accès à la donnée (carnet d'addresse): qui a la donnée? est-elle gratuite? Contraintes? a qui l'acheter? 
   * Annuaire des prestataires de données. Indique que c'est également un problème de l'UNESCO
 mais conf, type SHF hydro, montre qu'il y a des communautés, mais peu accessibles hors université, demande trop de veille
     * trouver les BE sans passer par le site du gouvernement ou recherche google: nul pour les mots clefs (certains sont "mesure" quand d'autres, comme eux, sont plus "analyse / prévision")
 * pro et cons des soft (quel outil / quelle version favoriser pour quelle tâche?) -> partage de méthodes et de connaissances entre utilisateurs
 * présentation le travail par utilisateur (presque réseau social d'hydrologie)
-</font>
+</span>
 * Que souhaiteriez-vous apporter à la communauté?
-<font color="darkcyan">
+<span class="user-answer">
 * leur production dans le cadre des projets européens est accessibles à tout le monde (hauteur de 20 cours d'eau, ils peuvent fournir les mots de passe)
 * donnée en vente ou en échange
-</font>
+</span>
 
 ## Ouverture
 
 * Disponible peu (1/2 journée mois) pour participer à la conception
-<font color="darkcyan">
+<span class="user-answer">
 Oui
-</font>
+</span>
 * Qu'est ce qui vous ferait gagner du temps?
-<font color="darkcyan">
+<span class="user-answer">
 pas gagner du temps
 Theia plus instinctif!
-</font>
+</span>
 * POST: Quelles solutions dans un monde idéal?
-<font color="darkcyan">
+<span class="user-answer">
 Esprit de communauté (notamment pour les étudiants qui recherchent des stages ~ actuellement ils vont sur Géoréseau)
 PAS DE CODE (notamment pour les BD types PostGIS)
 Note: elle multi-exporte, clic par clic, tous ses fichiers Excell > pouvoir exporter plusieurs fichiers excell au format qui va bien, par seuils
-</font>
+</span>
+
+<style>
+.user-answer {
+  color: darkcyan;  
+}
+</style>
