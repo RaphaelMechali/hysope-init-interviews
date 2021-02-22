@@ -5,8 +5,6 @@
 * Présentation (nom métier, organisme, formation universitaire)
 <font color="darkcyan">
 
-
-
 </font>
   * Plutôt opérationnel? Scientifique? Archi / bureau d'étude?
 <font color="darkcyan">
