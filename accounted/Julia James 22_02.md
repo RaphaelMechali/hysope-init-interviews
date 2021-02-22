@@ -35,7 +35,7 @@ Utilisent Envy pour les analyses (payant) et QGis carto
   * Etapes?
 <span class="user-answer">
 Téléchargement de l'image, traitée sur SNAP (dont graphbuilder)
-Travail d'image (Envy pour support, MathLab clusterisé), découpage, seuil, classification
+Travail d'image (Envi pour support, MathLab clusterisé), découpage, seuil, classification
 Mise en forme carto: QGis
 </span>
 * Quelles tâches métiers secondaire? (sous-tâches ou tâches parallèles?)
@@ -49,8 +49,8 @@ nouveau site internet acmg.asso.net?
   * carto hors norme (échelle variante)
   * trombinoscope cartographié
 * Comm
-  * Carte répartion eau (année agricole, octobre -> octobre)
-  * Carte répartion climat
+  * Carte répartition eau (année agricole, octobre -> octobre)
+  * Carte répartition climat
   * Carte attirante, peu de logos, beaucoup de couleur, du bâti. Adaptée Viridis (bleu au vert, pour daltoniens)
 Peuvent être A3 (poster) ou A4 (powerpoint)
 </span>
@@ -90,7 +90,7 @@ toujours QGis.
 * Excell > rapide, bon support
 * Snap: installation facile, intuitif, peu gourmand en ressources
 * Envy: payant mais très bien! (support, facilité d'utilisation, ) Exemple: polygonisation d'une zone 35min face à 8h. Très compatible avec QGis
-* Google Earth Engine avec KML et KMZ, effet WAOUH, a utilisé pour transférer des données à un client
+* Google Earth, effet WAOUH, a utilisé pour transférer des données à un client
 </span>
   * Quels points d'amélioration?
 <span class="user-answer">
@@ -157,7 +157,7 @@ aménagement des berges (urbain / végétation / habitation), occupation de la z
 <span class="user-answer">
 demander à Maël?
 système de seuil statistique
-Jean François, dans commité Eau et Climat, utilise le résultat (modèle) => étudie le positionnement, propose des stratégies (lacs, irrigations, etc...). Ils mesurent les ilots de chaleur sur le terrain au préalable
+Jean François, dans commité Eau et Climat, utilise le résultat (modèle) => étudie le positionnement, propose des stratégies (lacs, irrigations, etc...). Ils mesurent les îlots de chaleur sur le terrain au préalable
 </span>
   * de comparaison
 <span class="user-answer">
@@ -234,7 +234,7 @@ Theia plus instinctif!
 </span>
 * POST: Quelles solutions dans un monde idéal?
 <span class="user-answer">
-Esprit de communauté (notamment pour les étudiants qui recherchent des stages ~ actuellement ils vont sur Géoréseau)
+Esprit de communauté (notamment pour les étudiants qui recherchent des stages ~ actuellement ils vont sur GeoRezo)
 PAS DE CODE (notamment pour les BD types PostGIS)
 Note: elle multi-exporte, clic par clic, tous ses fichiers Excell > pouvoir exporter plusieurs fichiers excell au format qui va bien, par seuils
 </span>
