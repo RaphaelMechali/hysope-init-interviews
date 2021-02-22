@@ -4,7 +4,7 @@
 
 * Présentation (nom métier, organisme, formation universitaire)
 <font color="darkcyan">
-Master recherhce histoire (politique env. haute montagnes).
+Master recherche histoire (politique env. haute montagnes).
 License pro 
 CDI chargée d'études (socio éco) et chargée de clientèle
 télédétection et cartographie
@@ -51,7 +51,7 @@ nouveau site internet acmg.asso.net?
 * Comm
   * Carte répartion eau (année agricole, octobre -> octobre)
   * Carte répartion climat
-  * Carte attirante, peu de logs, beaucoup de couleur, du bâti. Adaptée Viridis (bleu au vert, pour daltoniens)
+  * Carte attirante, peu de logos, beaucoup de couleur, du bâti. Adaptée Viridis (bleu au vert, pour daltoniens)
 Peuvent être A3 (poster) ou A4 (powerpoint)
 </font>
   * Pour qui? (lui-même ?)
@@ -63,9 +63,9 @@ Peuvent être A3 (poster) ou A4 (powerpoint)
 Téléchargement:
 * image Théia / Peps / Copernicus (Sci-Hub) / Landsat (usgs earth explorer)
 * carto pure: IGN
-* données de l'eau: téléchargée / WMS (BD Carthage) => croisement de données pour les compléter
-* routes et similaires
-Utilisent peu LandCover: trop daté
+* données de l'eau: téléchargée CSV / WMS (BD Carthage) => croisement de données pour les compléter
+* routes et similaires sur OpenStreetMap (pas complet mais quand même très bien)
+* Utilisent peu LandCover: trop daté
 * occupation des sols: Cesbio **TODO compléter avec Lionel**
 * IDGéo? Bâti / cadastre
 * Datagouv et autres pour les départements
@@ -121,7 +121,7 @@ Oui si publiée récemment (tous les 15j). Actuellement non
 </font>
   * SWE (volume eau / neige)
 <font color="darkcyan">
-Non
+Non mauvaise comm?
 </font>
   * Surface d'eau (pixel eau)
 <font color="darkcyan">
@@ -157,7 +157,7 @@ aménagement des berges (urbain / végétation / habitation), occupation de la z
 <font color="darkcyan">
 demander à Maël?
 système de seuil statistique
-Jean François, dans Eau et Climat, utilise le résultat (modèle) => étudie le positionnement, propose des stratégies (lacs, irrigations, etc...). Ils mesurent les ilots de chaleur sur le terrain au préalable
+Jean François, dans commité Eau et Climat, utilise le résultat (modèle) => étudie le positionnement, propose des stratégies (lacs, irrigations, etc...). Ils mesurent les ilots de chaleur sur le terrain au préalable
 </font>
   * de comparaison
 <font color="darkcyan">
@@ -211,7 +211,7 @@ Oui (cf. au dessus)
 * accès à la donnée (carnet d'addresse): qui a la donnée? est-elle gratuite? Contraintes? a qui l'acheter? 
   * Annuaire des prestataires de données. Indique que c'est également un problème de l'UNESCO
 mais conf, type SHF hydro, montre qu'il y a des communautés, mais peu accessibles hors université, demande trop de veille
-    * trouver les BE sans passer par le site du gouvernement: nul pour les mots clefs (certains sont "mesure" quand d'autres, comme eux, sont plus "analyse / prévision")
+    * trouver les BE sans passer par le site du gouvernement ou recherche google: nul pour les mots clefs (certains sont "mesure" quand d'autres, comme eux, sont plus "analyse / prévision")
 * pro et cons des soft (quel outil / quelle version favoriser pour quelle tâche?) -> partage de méthodes et de connaissances entre utilisateurs
 * présentation le travail par utilisateur (presque réseau social d'hydrologie)
 </font>
