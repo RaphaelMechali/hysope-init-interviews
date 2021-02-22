@@ -8,20 +8,21 @@
 * Définition des "shapes" d'entités 1
   * prior (déf à priori) 1
   * unassigned (déf "lac à sec") 1
-* hauteur d'eau 6 
+* hauteur d'eau 7 
   * mesure par capteur de pression 1
 * débit 4
-* surface 6
+* surface 7
 * Volume / stockage 5
 * température 2
 * hygrométrie 1
 * vent 1
-* Neige 2
+* Neige 3
 * SWE 2
 * glace (et glaciers) 1
 * météo actuelle 4
   * pluviométrie 4
   * température air 2
+  * vent 1
 * prévision météo 3
 * rayonnement 1
 * Humidité des sols 3
@@ -51,7 +52,7 @@
   * Théodolites 1
 * Cartographie 6
   * ArcGis 1
-  * QGis 5
+  * QGis 6
   * Panoply 2
   * NCView 1
   * PostGIS 1
@@ -70,18 +71,22 @@
     * Comparaison visuelle aux contours attendus 2
       * Par reconstitution de plusieurs images ou sources par entité (lac / rivières) 1
     * Comparaison automatisée aux contours attendus (image) 2
-    * Pixel cloud x shapefile / Pixel cloud (analyse qualitative des surfaces) 2
+    * Pixel cloud x shapefile / Pixel cloud (analyse qualitative des surfaces) 3
   * Analyse coût / risque / bénéfice 1
   * Analyse statistique 1
     * Réseau de neurones 1
+  * Simulation 1
+    * SWOT-hydrology-toolbox 1
+    * Jpl - RiverOps 1    
 * Analyse continue (seuils d'alertes) 2
+* A essayé de remplacer des traitement QGis par photoshop 1
 * Programmation 1
   * Python 4
     * Orphéo toolbox 1
     * S1Tiling 1
     * PyCharm 1
     * Spider 1
-    * Anaconda 1
+    * Anaconda /miniconda 2
   * R 1
     * Recalibrer les images satellitaires 1
     * RGRxx pour big data
@@ -91,14 +96,14 @@
     * Unitaires 1
   * Plugin confluence 1
   * Jupiter notebook 1
-* Partage & comm 2
+* Partage & comm 3
   * Git 2
   * GitLab 2
   * Confluence 1
   * skype 1
 * Cloud 3
   * AWS 1
-  * HPC HAL cluster CNES 3
+  * HPC HAL cluster CNES 4
 * Modèles 3
   * SAFI (évolution biomasse, réserve hydrique) 1
   * (R)GRxx 2
@@ -148,13 +153,16 @@
 * Algo SWOT 2
   * Générer de la donnée de simulation pour les algos (vérité terrain) 1
   * Implémenter des algo de qualité satisfaisante 1
+  * traiter les données SWOT 1
+  * Comparer à l'existant (in situ) 1
+  * Produire pour des résultats pour les scientifiques et les utilisateurs 1
 
 ## Points pénibles
 
 * Préparation 1
 * Satellitaire 3
   * Temps de téléchargement / récupération / traitement 3
-  * Puissance / espace requis 2
+  * Puissance / espace requis 3
   * Inconstance du type de mesure 1
   * Conversion SAT (S1Tiling) 1
   * Fréquences trop basse 1
@@ -167,12 +175,13 @@
 * Mise en place 1
   * Lâchers hydro-électriques perturbants 1
 * VRE / cluster: lourde / lente / surcouche de complexité inutile 2
-  * Plus nuancé: pb réseau d'accès HPC / HAL / VRE 1
+  * Plus nuancé: pb réseau d'accès HPC / HAL / VRE 2
 * Analyse stat. automatique filtre les évènements extrêmes réels 2
 * Estimer la marge d'erreur 2
 * Visualisation historique complexe 1
 * Pression des projets (temps / budget) 1
-
+* Mise à jour des outils JPL trop fréquentes 1
+* NetCDF trop lourd en manip 1
 
 ## Crainte
 
@@ -180,6 +189,7 @@
 * Les fichiers non copiables (PDF, manuscrits) 1
 * Âpre concurrence, intérêts divergents 1
 * Rédiger des documents 1
+* pression importante lors de la CALVAL SWOT 1
 
 ## Appartenance communautaire
 
@@ -191,10 +201,10 @@
   * CACG 1
   * EPTB, ministères, agences, syndicats 5
   * Banques mondiales 1
-  * CNES 3
+  * CNES 4
   * Segment sol 1
 * Communauté globale 1
-  * Scientifique (CNES / JPL / Universités) 3
+  * Scientifique (CNES / JPL / Universités) 4
 * Groupes de travail 3
 
 ## Vision communautaire
@@ -233,8 +243,10 @@
 * Avoir du 3m en bande X (nota: bande permettant une meilleure classification) 1
 * Satellite geostationnaire avec pixel à moins de 10m (petits lacs / petites rivières) 1
 * Flotte de satellites qui se relaient pour suivre les évènement d'inondation 1
-* Des projets "pérennisés" (manque de suivi de long terme)
-* Mise à disposition d'un scribe
+* Des projets "pérennisés" (manque de suivi de long terme) 1
+* Mise à disposition d'un scribe 1
+* Rapidité d'application des prétraitements et traitements de visu et graphiques (autant calibration qu'exploitation) 1
+* affichr la taille dispo des volumes (voir STYX / HYMOTEP) 1
 
 
 
