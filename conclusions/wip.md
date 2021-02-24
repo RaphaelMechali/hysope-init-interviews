@@ -1,159 +1,16 @@
-# Résumé des habitudes rencontrées
 
-## Variables et visualisation
+e## Outils & méthodes
 
-### Consommées
-
-* MNT 8
-* Définition des "shapes" d'entités 1
-  * prior (déf à priori) 1
-  * unassigned (déf "lac à sec") 1
-* hauteur d'eau 14
-  * mesure par capteur de pression 1
-* débit 9
-* surface 16
-  * largeur rivière (GRAWL) 1
-* réflectance 1
-* Aérosol atmosphériques 2
-* Volume / stockage 7
-* température 5
-* hygrométrie 1
-* Neige 10
-* SWE 6
-* glace (et glaciers) 2
-* météo actuelle 8
-  * pluviométrie 8
-  * température air 5
-  * Humidité 1
-  * vent 4
-  * Direction du vent 1
-* prévision météo 6
-* rayonnement 3
-* Humidité des sols 6
-  * Par sonde capacitive 1
-  * Humidité de surface 2
-* Température eau 8
-* Turbidité 8
-* Mesure de Chlorophyle 1
-* Occupation des sols 10
-  * Radar (Sentinel) 4
-  * Aménagement des berges (urbain/ végétation / habitations) 1
-  * Indice foliaire 2
-  * Variable catégorielle 2
-  * Composition 1
-* Pente terrain 1
-* Résultats de recherches scientifiques externes 1
-* Largeur maxi / min des micro BV 1
-* "Profondeur" (fond -> berge) 1
-* Analyse chimique 2
-  * conductivité 1
-  * PH 1
-* Rapports / études à proximités du BV (qualité, biodiversité, etc...) 1
-* lames d'eau 1
-* masques 
-  * eau 2
-  * neige 1
-  * nuages 2
-    * nébulosité 1
-
-### Calculeés
-
-* ETP 4
-* Carte de seuil (paramétrée, eau, climat etc...) 2
-* Carte d'érosion 2
-* Risque d'érosion 2
-* Îlots de chaleurs 1
-* Bilan hydrique 4
-  * Cycle de l'eau 2
-* Visualisation "grand-publique" (vulgarisation) ~ échelles non linéaires et similaires 1
-* Trombinoscope cartographié 1
-* Affichage du bâti 1
-* Risque d'inondation 1
-* eutrophisation (transport sédiments) 1
-* peuvent partager / vendre leur données (fonction des cas)(in situ / drone)
-*
-
-## Outils & méthodes
-
-* Dispense formation / support 9
+* Dispense formation / support 9es
+* Travaille par sous BV 1
 * In situ
   * Hydrométrie jauge 2
   * Bateaux drones 2
   * Théodolites 1
   * Drone 1
-* Cartographie
-  * ArcGis 2
-  * QGis 12
-  * GRASS 1
-  * Panoply 2
-  * NCView 1
-  * PostGIS 2
-  * Skyline 1
-  * cognition 1
-  * RDAS 1
-  * rapide cartographie
-* Analyse mathématique
-  * Courbe temporelle (suivi volumes, surface, débits, prélèvements, précipitations ETP, oxygènation, turbidité, hauteur + mesure, comparaison source / produit ~ hauteur par exemple) 10
-  * Courbe Ipsométriques (surface x hauteur = signature lac = bathymétrie?) 3 **TODO @LZA: unifiable avec le point dessous? ~= bathymétrie**
-  * Courbe multi-paramètres (corrélation météo x hydro x param trisométrique) 3
-  * Position fauchée x Erreur de surface || taille du lac (Y) OU Hauteur / diff hauteur (erreur) 1
-  * Multi graph 1
-  * Comparaison à la moyenne / écart type 4
-  * Interpolation / extrapolation polynomiale, constante optimiste, gaussienne etc... 4
-    * MNT 1
-    * temporelle (variable, nuage de points) 3
-  * Estimation de marge d'erreur 6
-    * Par rapport à une autre entrée / modèle / approche 2
-    * Route Min Square Error (erreur quadra), MAE (Min Absolute Error) ou MAD 1
-    * écart-type ciblé (1 sigma) 1
-  * Cartographiée
-    * Mesure indicateur par pixel 2
-    * Pour corréler aval / amont (par indicateurs de propagation visuels: tronçons de rivières colorés) 1
-    * Analyse d'impact statistique cartographiées (zones et seuils) 2
-    * Comparaison visuelle aux contours attendus 3
-      * Par reconstitution de plusieurs images ou sources par entité (lac / rivières) 2
-    * Comparaison automatisée aux contours attendus (image) 2
-    * Pixel cloud x shapefile / Pixel cloud (analyse qualitative des surfaces) 4
-    * "Polygonisation" (raster -> shape) 2
-    * Visu MERIT (pour homogénéisation de la termino / du référentiel) 1
-  * Analyse coût / risque / bénéfice 2
-  * Analyse statistique 3
-    * Regression statistique  2
-    * Réseau de neurones / deepLearning / Machine Learning 4
-  * Simulation 5
-    * SWOT-hydrology-toolbox 3
-    * Jpl - RiverOps 3
-    * Autres 1
-    * GIEC - Climatique 1
 * Analyse continue (seuils d'alertes) 3
 * A essayé de remplacer des traitement QGis par photoshop 1
-* Programmation
-  * Bash 1
-  * Fortran 2
-  * Python 11
-    * Orphéo toolbox 2
-    * S1Tiling 1
-    * Spider 1
-    * Anaconda / Conda / Miniconda 4
-    * Carto 2
-    * Plotly 1
-  * R 3
-    * Recalibrer les images satellitaires 1
-    * RGRxx / AIGR pour big data 2
-  * C/C++ 2
-  * Java 1
-  * Mathlab 3
-  * Snap 3
-  * IDE / environnement
-    * Jupiter notebook 5
-    * VSCode 2
-    * PyCharm 1
-    * Simples (EMACS/ kates / vim) 2
-  * Test 1
-    * Fonctionnels 1
-    * Unitaires 1
-  * Plugin confluence 1
-  * Docker
+
 * Outils / IHM
   * LYXEA 1
   * Envi (traitement, deep learning, remplace du code) 2
@@ -167,14 +24,6 @@
   * AWS (et amazon bucket) 3
   * HPC HAL cluster CNES 9
   * Cluster de simulation Météo France 1
-* Modèles 4
-  * SAFI (évolution biomasse, réserve hydrique) 1
-  * (R)GRxx 2
-  * SWAT 2
-  * GFS (prévision météo) 1
-  * De propagation (type non mentionné) 1
-  * SNOW Model 1
-* Travaille par sous BV 1
 * Outils internes 2
   * Qualification 2
   * Calibrage (interpolation, échantillonage, conversion...) 3
@@ -378,7 +227,7 @@
   * adapté à la lecture des produits SWOT 2
   * qui permettrait de sélectionner un layer sur trois 1
 * Un super Google Earth Engine, transparent, éthique, sans trou de donnée et permettant des traitement "externes" 1
-* Outils de visualisation graphique bien faits sur portail (drop excell) 1
+* Outils de visualisation graphique bien faits sur portail (drop excell) 2
 * Prévisualisation bien faite sur portail (drop download -> QGis) 1
 * Accès rapide aux données historiques (sur bande magnétique) 3
 * Libre accès aux données COSMOS SKYMED 1
@@ -401,7 +250,6 @@
 * Système de préférence de projection par préférence utilisateur 1
 * Facile d'utilisation 1
 * Ressources matérielles 1
-* Nombreuses visualisations possibles 1
 * traitements à grande échelle 1
 * comparaisons à grande échelle 1
 
