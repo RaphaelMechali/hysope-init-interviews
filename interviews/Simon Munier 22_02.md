@@ -45,7 +45,7 @@ Contraintes portées par l'approche orientée passage à l'échelle globale pour
 		  * Dév d'algos pour upscaler de 90m à 1/12° sur réseau hydro MERIT-DEM, MERIT-Hydro
 		  * Ajout d'autres composantes sur eaux souterraines avec des BDD globales sur composition des sols, …etc. Recherche biblio pour trade-off hydro-géo
 		  * Ajout modélisation barrages réservoirs en cours : 
-		  	 * Choix d'un bassin test (territoire espagnol car Espagne a mis à disposition une grosse BDD pour arriver à comprendre le foncitonnement des barrages)
+		  	 * Choix d'un bassin test (territoire espagnol car Espagne a mis à disposition une grosse BDD pour arriver à comprendre le fonctionnement des barrages)
 		  	 * Analyse de la donnée dispo 
 		  	 * Téléchargement de la donnée dispo
 		  	 * Croiser les différentes BDD pour catégoriser les différents barrages (hydro-elec, soutien étiage…)
