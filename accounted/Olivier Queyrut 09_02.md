@@ -177,7 +177,7 @@ Oui
 </span>
 * Utilisez-vous des données Theia régulièrement?
 <span class="user-answer">
-Oui (S2 2A, 3A, occupation des sols, manteau neigeux, humidité des sols) Veµs / Landsat non mais y pense
+Oui (S2 2A, 3A, occupation des sols, manteau neigeux, humidité des sols) Venµs / Landsat non mais y pense
 </span>
 * Accédez-vous régulièrement à des produits CNES (peps / cdpp / hydroweb / theia similaires...)
 <span class="user-answer">

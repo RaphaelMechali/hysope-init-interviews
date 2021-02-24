@@ -77,7 +77,7 @@ Pour l'agence de l'eau du Brésil (transfert de chaîne de données Modis, hydro
 </span>
   * Quels points d'amélioration?
 <span class="user-answer">
-* Aggrégation / centralisation de produits qui leur sont nécessaire (masque eau / masque neige)
+* Aggrégation / centralisation de produits qui leur sont nécessaires (masque eau / masque neige)
 * Espace nécessaire pour les calculs (pays / partie de continents)
 * Facilité de mise à disposition pour la communauté et de démonstration
 </span>

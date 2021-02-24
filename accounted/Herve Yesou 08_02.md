@@ -14,7 +14,7 @@ labo passe de local à régional
 * Catographie rapide pour catastrophe naturelle (BE / OP), calcul d'impact sur bassin
 * volet recherche: algorithmie
 * management (sélection produit)
-* Produit de démonstration, définition de missions spatiales (SMASH, VISA = future SWOT + opérationnel), apporte les besoin de carto rapide.
+* Produit de démonstration, définition de missions spatiales (SMASH, VISA = future SWOT + opérationnel), apporte les besoins de carto rapide.
 * Support équipe SWOT 
   * mise en place BD lacs / rivières
   * supervision campagne terrain
@@ -72,7 +72,7 @@ Récupération donnée
 </span>
   * Quels points forts?
 <span class="user-answer">
-* Outils génériques / standards, mieux pour la discussion (raison au peu d'adoption de l'OTB)
+* Outils génériques / standards, mieux pour la discussion (raison au peu d'adoption de l'OTB)(bilan)
 </span>
   * Quels points d'amélioration?
 <span class="user-answer">

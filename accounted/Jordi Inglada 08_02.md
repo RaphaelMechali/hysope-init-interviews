@@ -134,7 +134,7 @@ plutôt producteur, n'utilise pas ces variables
 <span class="user-answer">
 produit occupation des sols
 pourrait utiliser des humidités de surface
-BD terrain ou mesure terrain (variable catégorielle / quantatif comme indice "foliaire", variables biophysiques => points ou polygones, shape / sqlite).
+BD terrain ou mesure terrain (variable catégorielle / quantitatif comme indice "foliaire", variables biophysiques => points ou polygones, shape / sqlite).
 </span>
 * Quelles méthodes
   * d'exploitation
@@ -150,7 +150,7 @@ peu de visualisation, juste pour la validation qualitative et l'illustration, "p
   * d'extrapolation
 <span class="user-answer">
 * Extrapolation: Forecast d'analyse (algo spécifiques, expertise humaine)
-* Interpolation: données à trous => paramétrage d'interpolation à faire à chaque fois (algos connus: **TODO obtenir la liste des algo et paramètres**) De base approche naïve: réplication de la dernière valeur connue
+* Interpolation: données à trous => paramétrage d'interpolation à faire à chaque fois. De base approche naïve: réplication de la dernière valeur connue
 </span>
 * Tâche métier actuellement bien outillée?
 <span class="user-answer">

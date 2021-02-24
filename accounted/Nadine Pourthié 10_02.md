@@ -59,9 +59,9 @@ L1B océano != L1B hydro (sérieux?!)
 * Quels outils actuels?
 <span class="user-answer">
 * QGis: Visuliser et superposer images et informations (données de ref, données google earth, NetCDF, shapefile, raster vecteur)
-* Monteverdi (IHM pour l'OTB, manip d'image). DiapOTB pour le radar (remove module OTB pour le radar et l'interférométrie).
+* Monteverdi (IHM pour l'OTB, manip d'image). DiapOTB pour le radar (remote module OTB pour le radar et l'interférométrie).
 * Jupiter notebook (un peu, plus ses collègues)
-Aimait bien l'outil Envy. 
+Aimait bien l'outil Envi. 
 </span>
   * Quels points forts?
 <span class="user-answer">
