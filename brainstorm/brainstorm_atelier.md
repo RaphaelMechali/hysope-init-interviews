@@ -1,3 +1,18 @@
+## Atelier
+* data :
+  * SWOT continues (par d'arrêt à 3 ans)
+  * de haute qualité (à terme) 2
+  * de qualité moyenne rapidement, puis des données qualitatives plus tard (fast mapping) 3
+  * in situ très rapidement (quelques minutes) 1
+  * faciles à récupérer 1
+  * et outils centralisés / uniformisés 1
+  * Accès rapide aux données historiques (sur bande magnétique) 3
+  * payantes (produits spécifiques ou in situ) 2
+  * pas de données altimétriques en representation cartographique 1
+  * Récupérer les données d'acteurs actuellement éparses (stations d'épuration et industriels par exemple) 5
+  * toutes données openSource, intégrables, récupérables, facilité de partage(flux WMS). 4
+  * plus de données petits lacs / flaques 3
+  
 ## Points pénibles
 
 * Préparation des données 2
@@ -87,3 +102,5 @@
 * Ressources matérielles 1
 * traitements à grande échelle 1
 * comparaisons à grande échelle 1
+
+
