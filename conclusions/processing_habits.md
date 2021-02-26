@@ -30,9 +30,34 @@
 | Text editors (EMACS/ Kates / Vim) | 2      |
 | PyCharm                           | 1      |
 
+# Cloud 
+
+| Type                               | Compte |
+|------------------------------------|--------|
+| HPC HAL cluster CNES               | 9      |
+| Google Earth Engine                | 7      |
+| AWS (et amazon buckets)            | 3      |
+| Serveur interne                    | 3      |
+| OVH / orange                       | 1      |
+| Cluster de simulation Météo France | 1      |
+
+# Outils et interfaces
+
+| Type                                               | Compte |
+|----------------------------------------------------|--------|
+| OTB                                                | 2      |
+| Envi (traitement, deep learning, remplace du code) | 2      |
+| Snap                                               | 1      |
+| LYXEA                                              | 1      |
+| Moteverdi (IHM OTB)                                | 1      |
+| DiapOTB (Radar, OTB)                               | 1      |
+| Outil interne: Qualification et calibrage          | 3      |
+
 # Pratiques annexes
 
 | Type               | Compte |
 |--------------------|--------|
 | Tests unitaires    | 2      |
 | Tests fonctionnels | 1      |
+
+

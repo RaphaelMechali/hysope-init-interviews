@@ -1,4 +1,4 @@
-# Données consommés
+# Données consommées
 
 | Type                                                     | Compte |
 |----------------------------------------------------------|--------|
@@ -50,3 +50,45 @@
 | *• PH*                                                   | 1      |
 | Mesure de Chlorophyle                                    | 1      |
 | "Profondeur" (distance fond=>berge)                      | 1      |
+
+
+# Source et distribution de données
+
+| Type                                                                       | Compte |
+|----------------------------------------------------------------------------|--------|
+| * Outil interne pour distribuer / consommer les données / alertes de seuil | 10     |
+| * Theia                                                                    | 5      |
+| *• Dinamis*                                                                | 1      |
+| * Corpernicus                                                              | 4      |
+| * Sci-Hub                                                                  | 6      |
+| * Peps                                                                     | 4      |
+| * Pleïades (CNES ou GeoStore Airbus)                                       | 2      |
+| * Hubeau                                                                   | 2      |
+| *• NAIADE*                                                                 | 1      |
+| * Géoportail IGN                                                           | 3      |
+| * OFB                                                                      | 1      |
+| * BD IRD                                                                   | 2      |
+| * Service Sandre                                                           | 1      |
+| * Banque Hydro / BD Carthage                                               | 2      |
+| * CNES (Hydroweb OG, Peps, HPC, Theia...)                                  | 2      |
+| * Landsat (usgs earth explorer)                                            | 4      |
+| * Earth data (NASA)                                                        | 1      |
+| * oceanwf - océanographie (NASA)                                           | 1      |
+| * nsidc - glace / neige (NASA)                                             | 1      |
+| * Reverb (NASA                                                             | )      |
+| * Google Earth Engine                                                      | 7      |
+| * Google Earth                                                             | 1      |
+| * CTOH                                                                     | 1      |
+| * OpenStreetMap                                                            | 1      |
+| * LandCover                                                                | 2      |
+| * Sentinel Hub                                                             | 1      |
+| * IDGeo                                                                    | 1      |
+| * data.gouv.fr (données cadastrales)                                       | 1      |
+| * GeoRezo **TODO: a creuser pour la comm **                                | 1      |
+| * Modis                                                                    | 1      |
+| * MERIT Hydro (Merit DEM, algo, Open Street Map)                           | 1      |
+
+# Consumed products
+
+| Venµs*                                                                  | 1      |
+| Sentinel* 2A S3A                                                        | 1      |
