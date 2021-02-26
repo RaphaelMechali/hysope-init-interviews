@@ -12,7 +12,13 @@
   * Récupérer les données d'acteurs actuellement éparses (stations d'épuration et industriels par exemple) 5
   * toutes données openSource, intégrables, récupérables, facilité de partage(flux WMS). 4
   * plus de données petits lacs / flaques 3
-  
+* cartographie
+ * 
+* materiel / ressources distantes
+
+* outils 
+
+
 ## Points pénibles
 
 * Préparation des données 2
