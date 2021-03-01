@@ -54,41 +54,39 @@
 
 # Source et distribution de données
 
-| Type                                                                       | Compte |
-|----------------------------------------------------------------------------|--------|
-| * Outil interne pour distribuer / consommer les données / alertes de seuil | 10     |
-| * Theia                                                                    | 5      |
-| *• Dinamis*                                                                | 1      |
-| * Corpernicus                                                              | 4      |
-| * Sci-Hub                                                                  | 6      |
-| * Peps                                                                     | 4      |
-| * Pleïades (CNES ou GeoStore Airbus)                                       | 2      |
-| * Hubeau                                                                   | 2      |
-| *• NAIADE*                                                                 | 1      |
-| * Géoportail IGN                                                           | 3      |
-| * OFB                                                                      | 1      |
-| * BD IRD                                                                   | 2      |
-| * Service Sandre                                                           | 1      |
-| * Banque Hydro / BD Carthage                                               | 2      |
-| * CNES (Hydroweb OG, Peps, HPC, Theia...)                                  | 2      |
-| * Landsat (usgs earth explorer)                                            | 4      |
-| * Earth data (NASA)                                                        | 1      |
-| * oceanwf - océanographie (NASA)                                           | 1      |
-| * nsidc - glace / neige (NASA)                                             | 1      |
-| * Reverb (NASA                                                             | )      |
-| * Google Earth Engine                                                      | 7      |
-| * Google Earth                                                             | 1      |
-| * CTOH                                                                     | 1      |
-| * OpenStreetMap                                                            | 1      |
-| * LandCover                                                                | 2      |
-| * Sentinel Hub                                                             | 1      |
-| * IDGeo                                                                    | 1      |
-| * data.gouv.fr (données cadastrales)                                       | 1      |
-| * GeoRezo **TODO: a creuser pour la comm **                                | 1      |
-| * Modis                                                                    | 1      |
-| * MERIT Hydro (Merit DEM, algo, Open Street Map)                           | 1      |
+| Type                                                | Lien                                                 | Compte |
+|-----------------------------------------------------|------------------------------------------------------|--------|
+| Outil interne de distribution les données / alerter | https://peps.cnes.fr/rocket/#/home                   | 10     |
+| Corpernicus SciHub                                  | https://scihub.copernicus.eu/                        | 10     |
+| Google Earth Engine                                 | https://earthengine.google.com/                      | 7      |
+| Theia                                               | https://catalogue.theia-land.fr/                     | 7      |
+| *• Dinamis*                                         | https://dinamis.data-terra.org/                      | 1      |
+| Peps                                                | https://peps.cnes.fr/rocket/#/home                   | 6      |
+| USGS                                                | https://earthexplorer.usgs.gov/                      | 4      |
+| Service Sandre                                      | https://www.sandre.eaufrance.fr/                     | 3      |
+| Géoportail IGN                                      | https://spatial.ign.fr/                              | 3      |
+| Base IRD                                            | https://dataverse.ird.fr/                            | 2      |
+| OpenStreetMap                                       | https://www.openstreetmap.org/                       | 2      |
+| Hubeau                                              | https://hubeau.eaufrance.fr/                         | 2      |
+| Earth data                                          | https://search.earthdata.nasa.gov/                   | 2      |
+| nsidc - glace / neige                               | https://nsidc.org/                                   | 2      |
+| OFB                                                 | https://ofb.gouv.fr/                                 | 1      |
+| oceanwf - océanographie                             |                                                      | 1      |
+| Google Earth                                        | https://earth.google.com/web                         | 1      |
+| CTOH                                                | http://ctoh.legos.obs-mip.fr/                        | 1      |
+| Sentinel Hub                                        | https://www.sentinel-hub.com/                        | 1      |
+| IDGeo                                               |                                                      | 1      |
+| data.gouv.fr                                        | https://www.geoportail.gouv.fr/thematiques           | 1      |
+| GeoRezo                                             | https://georezo.net/                                 | 1      |
+| MERIT Hydro                                         | http://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/ | 1      |
 
 # Consumed products
 
-| Venµs*                                                                  | 1      |
-| Sentinel* 2A S3A                                                        | 1      |
+| Type                               | Compte |
+|------------------------------------|--------|
+| Sentinel* 2A S3A                   | 14     |
+| LandCover                          | 2      |
+| Landsat                            | 4      |
+| Pleïades (CNES ou GeoStore Airbus) | 2      |
+| Venµs                              | 1      |
+| Modis                              | 1      |

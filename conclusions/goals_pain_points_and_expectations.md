@@ -42,7 +42,7 @@
 | Coder                                                                                             | 1      |
 | Manque de pérennité des projets                                                                   | 1      |
 
-## Attentes générales
+# Attentes générales
 
 | Type                                                                                                            | Compte |
 |-----------------------------------------------------------------------------------------------------------------|--------|
@@ -67,7 +67,7 @@
 | Comparaisons à grande échelle                                                                                   | 1      |
 
 
-## Attentes communautaires
+# Attentes communautaires
 
 | Type                                                                                        | Compte |
 |---------------------------------------------------------------------------------------------|--------|
