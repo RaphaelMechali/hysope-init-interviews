@@ -1,3 +1,18 @@
+## Questions
+
+Comment optimiser l'expérience de recherche de données utilisables qualifiées (visualisations temporelles)? Les variables de qualification:
+Type de mesure
+Fréquence d'acquisition
+Continuité d'acquisition
+Résolution
+Marge d'erreur
+Comment optimiser la récupération des données par l'utilisateur pour ses outils ?
+Comment optimiser l'outillage de compréhension et de présentation de résultats d'analyse (recherche de cycles, bilan...) ?
+Comment améliorer la modélisation d'un traitement - ou système hydrologique - et sa qualification ?
+Comment améliorer la planification ou l'intervention dans un système hydrologique 
+Comment fluidifier la communication et l'interaction entre les différents acteurs en hydrologie (dont pertubation du système) ?
+Comment optimiser le transfert de connaissances d'un système hydrologique, d'un modèle ou traitement, ou des données (produites / mesurées) ?
+
 ## Atelier
 * data :
   * SWOT continues (par d'arrêt à 3 ans)
