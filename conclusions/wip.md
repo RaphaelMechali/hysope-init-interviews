@@ -10,7 +10,6 @@
   * Drone 1
 * Analyse continue (seuils d'alertes) 3
 * A essayé de remplacer des traitement QGis par photoshop 1
-
 * Calcul, reporting et recherche 7
   * Word, PowerPoint 5
   * Excell 6
@@ -50,9 +49,6 @@
 * Groupes de travail 5
 * Trishna 2
 * Doppler 1
-
-## Vision communautaire
-
 
 
 **A creuser: qu'est ce qu'un SIE? (Alain Gauthier) Quelle matérialisation physique? Quel contrainte en hydrologie**
