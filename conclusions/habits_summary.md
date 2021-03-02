@@ -1,5 +1,7 @@
 # Résumé des habitudes rencontrées
 
+Fichier source, utilisé pour extraire les autres fichiers du dossier (à consulter de préférence)
+
 ## Variables et visualisation
 
 ### Consommées

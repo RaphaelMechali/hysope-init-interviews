@@ -30,12 +30,12 @@
 | Humidité des sols                                        | 6      |
 | *• Par sonde capacitive*                                 | 1      |
 | *• Humidité de surface*                                  | 2      |
-| Evapotranspiration (ETP)                                 | 4      |
-| Rayonnement                                              | 3      |
 | Résultats de recherches externes                         | 6      |
 | *• Etudes à proximités du BV (qualité, biodiversité...)* | 2      |
 | *• Bilan hydrique extérieur*                             | 4      |
-| masques                                                  | 3      |
+| Evapotranspiration (ETP)                                 | 4      |
+| Rayonnement                                              | 3      |
+| Masques                                                  | 3      |
 | *• eau*                                                  | 2      |
 | *• neige*                                                | 1      |
 | *• nuages*                                               | 3      |
